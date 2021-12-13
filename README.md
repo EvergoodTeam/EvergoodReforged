@@ -3,7 +3,7 @@
 # Evergood Reforged <a href=https://www.curseforge.com/minecraft/modpacks/evergoodreforged> <img src="http://cf.way2muchnoise.eu/552385.svg"> </a>
 Evergood Reforged reimagines its 1.12.2 Counterpart in 1.18, featuring Quests and Complex Recipes
 
-You can find more information about it and the Stable Versions only on [Curseforge](https://www.curseforge.com/minecraft/modpacks/evergoodreforged)
+You can find more information about it and the Stable Versions only on [Curseforge](https://www.curseforge.com/minecraft/modpacks/evergoodreforged) and the [Wiki](https://evergoodteam.github.io/modpacks/evergoodreforged)
 
 In case you find a reposted version on another site, please report it to us
 
