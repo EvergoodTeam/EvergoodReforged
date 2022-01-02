@@ -1,0 +1,8 @@
+
+#World generation related options.
+[overworld]
+	#Enable nether generation from Biomes O' Plenty.
+	use_bop_nether = true
+	#Generate large biomes.
+	large_biomes = false
+

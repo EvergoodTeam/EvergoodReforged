@@ -1,0 +1,35 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = 333333
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  orientation = mid-centered
+  x = 0
+  action = editprogressbar
+  y = 55
+  barcolor = 6edc92
+}
+
+customization {
+  path = resourcepacks/Graphics/evergoodteam.png
+  orientation = mid-centered
+  x = 0
+  width = 265
+  action = addtexture
+  actionid = c247aff6-2ef3-44fd-a0c9-eab5ec4b3ba21640721160783
+  y = -17
+  height = 75
+}
+

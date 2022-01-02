@@ -1,0 +1,208 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = refabricatedSlideshow
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -3
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 57
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 57
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -27
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  path = resourcepacks/Graphics/egreforgedtitle.png
+  orientation = mid-centered
+  x = -104
+  width = 208
+  action = addtexture
+  actionid = 379fae51-7332-4bf9-9ac2-de08eae631af1639403058299
+  y = -116
+  height = 70
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  description = GitHub Issues Page
+  label = 
+  loopbackgroundanimations = true
+  x = 104
+  width = 20
+  actionid = 44dcb668-a125-4346-bbfb-49045a3d87c61639403458198
+  action = addbutton
+  y = 21
+  value = https://github.com/EvergoodTeam/EvergoodReforged/issues
+  height = 20
+}
+
+customization {
+  path = resourcepacks/Graphics/github.png
+  orientation = mid-centered
+  x = 104
+  width = 20
+  action = addtexture
+  actionid = 1c18558c-9211-41b3-9b05-0d6cb84d32271639403584757
+  y = 21
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openfile
+  description = Modpack Folder
+  label = 
+  loopbackgroundanimations = true
+  x = -124
+  width = 20
+  actionid = 87d7e4f6-680e-45be-8b44-310a5aabb4c21639403752344
+  action = addbutton
+  y = 21
+  value = ./
+  height = 20
+}
+
+customization {
+  path = resourcepacks/Graphics/folder.png
+  orientation = mid-centered
+  x = -124
+  width = 20
+  action = addtexture
+  actionid = 4a8edd33-92f6-4285-a256-d0be9dddb11e1639403947526
+  y = 21
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  description = BisectHosting
+  label = Support Us!
+  loopbackgroundanimations = true
+  hoverlabel = Use code Libra for 25% OFF
+  x = -100
+  width = 200
+  actionid = 2c058c46-54f5-4e60-b3f0-4a595dfe84611639404083943
+  action = addbutton
+  y = 21
+  value = https://bisecthosting.com/Libra
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  description = Discord
+  label = 
+  loopbackgroundanimations = true
+  x = -124
+  width = 20
+  actionid = 618fa537-a9d4-43b4-83e9-8bf726a939701639404476849
+  action = addbutton
+  y = 57
+  value = https://discord.gg/k2P68Y8
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  description = Mods
+  label = ...
+  loopbackgroundanimations = true
+  x = 104
+  width = 20
+  actionid = 6aa8cd07-5d6a-4813-9957-4616a891e3e81639404489509
+  action = addbutton
+  y = 57
+  value = com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen
+  height = 20
+}
+
+customization {
+  path = resourcepacks/Graphics/discord.png
+  orientation = mid-centered
+  x = -124
+  width = 20
+  action = addtexture
+  actionid = fb33a8bd-e850-4255-b223-66534d61877f1639404898055
+  y = 57
+  height = 20
+}
+
+customization {
+  path = resourcepacks/Graphics/egreforgedtitle.png
+  orientation = mid-centered
+  x = -111
+  width = 223
+  action = addtexture
+  actionid = 6fd3a61e-6cf5-4b8f-8064-71cd7b4a9ea61639490394659
+  y = -120
+  height = 75
+}
+
