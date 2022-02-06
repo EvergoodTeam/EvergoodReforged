@@ -1,0 +1,1376 @@
+{
+	id: "6C6B86D087FB2AE3"
+	group: "1D519DFBE99B1ED5"
+	order_index: 1
+	filename: "mystical_crops"
+	title: "Mystical Crops"
+	icon: "mysticalagriculture:dye_seeds"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.8d
+			y: -4.6d
+			dependencies: ["30D31C0325604DE6"]
+			id: "2A14E54C5478B7B8"
+			tasks: [{
+				id: "5BB503D05E74238B"
+				type: "item"
+				item: "mysticalagriculture:infusion_pedestal"
+			}]
+		}
+		{
+			x: 2.6d
+			y: -4.6d
+			dependencies: ["2A14E54C5478B7B8"]
+			id: "51073EA31CA39389"
+			tasks: [{
+				id: "1777A476603C43F2"
+				type: "item"
+				item: "mysticalagriculture:infusion_altar"
+			}]
+		}
+		{
+			x: 1.8d
+			y: -3.5d
+			dependencies: ["16A7F1F17807064A"]
+			id: "30D31C0325604DE6"
+			tasks: [{
+				id: "4D490FADD9234DF9"
+				type: "item"
+				item: "mysticalagriculture:prosperity_seed_base"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			dependencies: ["31F08609007D02CB"]
+			id: "1698AD15BE360CFF"
+			tasks: [{
+				id: "0CB592A037DF3679"
+				type: "item"
+				item: "mysticalagriculture:soulium_seed_base"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.3d
+			dependencies: [
+				"16A7F1F17807064A"
+				"5F424957043119BE"
+			]
+			id: "1E983574534C6762"
+			tasks: [{
+				id: "7DA1F4D2809C2D24"
+				type: "item"
+				item: {
+					id: "matc:inferium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.8d
+			y: 0.9d
+			dependencies: [
+				"1E983574534C6762"
+				"0A9CBEA6028E306F"
+			]
+			id: "7178145BA11863A0"
+			tasks: [{
+				id: "713AB8A5D474A5C3"
+				type: "item"
+				item: {
+					id: "matc:prudentium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.1d
+			dependencies: [
+				"7178145BA11863A0"
+				"6273C65F736B688B"
+			]
+			id: "51B713A081E74E31"
+			tasks: [{
+				id: "30CF05421AE9C3E6"
+				type: "item"
+				item: {
+					id: "matc:tertium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.8d
+			y: 3.3d
+			dependencies: [
+				"51B713A081E74E31"
+				"6ED9A6F75180A8DD"
+			]
+			id: "698031E0D8A68994"
+			tasks: [{
+				id: "26F31855E9B71FA5"
+				type: "item"
+				item: {
+					id: "matc:imperium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: [
+				"698031E0D8A68994"
+				"7C2B81DC38791C7F"
+			]
+			id: "7AB45BFCD095BCBA"
+			tasks: [{
+				id: "5F2449A6E6930B18"
+				type: "item"
+				item: {
+					id: "matc:supremium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.8d
+			y: 5.7d
+			dependencies: [
+				"7AB45BFCD095BCBA"
+				"2CEDD541B7274DF9"
+			]
+			id: "7751C9C3AC8303A4"
+			tasks: [{
+				id: "15F6D0C052F36CAC"
+				type: "item"
+				item: "mysticalagriculture:master_infusion_crystal"
+			}]
+		}
+		{
+			x: 1.8d
+			y: -2.6d
+			dependencies: ["5F424957043119BE"]
+			id: "16A7F1F17807064A"
+			tasks: [{
+				id: "22C83485BE95CBEE"
+				type: "item"
+				item: "mysticalagriculture:prosperity_shard"
+			}]
+		}
+		{
+			x: 2.413d
+			y: -1.397d
+			dependencies: ["07765550450F5242"]
+			size: 1.27d
+			id: "5F424957043119BE"
+			tasks: [{
+				id: "50B7F17764173144"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.9d
+			dependencies: ["1E983574534C6762"]
+			id: "0A9CBEA6028E306F"
+			tasks: [{
+				id: "7A12A19C015673E2"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+			}]
+		}
+		{
+			x: 1.8d
+			y: 2.1d
+			dependencies: ["7178145BA11863A0"]
+			id: "6273C65F736B688B"
+			tasks: [{
+				id: "40F7D3D96505F9F4"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.3d
+			dependencies: ["51B713A081E74E31"]
+			id: "6ED9A6F75180A8DD"
+			tasks: [{
+				id: "4899CABAC3BD76F8"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+			}]
+		}
+		{
+			x: 1.8d
+			y: 4.5d
+			dependencies: ["698031E0D8A68994"]
+			id: "7C2B81DC38791C7F"
+			tasks: [{
+				id: "371FA96626CDD837"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.7d
+			dependencies: ["7AB45BFCD095BCBA"]
+			id: "2CEDD541B7274DF9"
+			tasks: [{
+				id: "3FAF89B87127E3CD"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.6d
+			dependencies: ["5F424957043119BE"]
+			id: "31F08609007D02CB"
+			tasks: [{
+				id: "48DB1699C29D9C8D"
+				type: "item"
+				item: "mysticalagriculture:soulium_dust"
+			}]
+		}
+		{
+			x: 4.2d
+			y: -2.6d
+			dependencies: ["31F08609007D02CB"]
+			id: "7A5C65C2B701C013"
+			tasks: [{
+				id: "1A348A4340E9A5E3"
+				type: "item"
+				item: "mysticalagriculture:tinkering_table"
+			}]
+		}
+		{
+			x: 4.2d
+			y: -1.5d
+			dependencies: ["7A5C65C2B701C013"]
+			id: "568CCD14092BB316"
+			tasks: [{
+				id: "30FD779A0C1569BC"
+				type: "item"
+				item: "mysticalagriculture:flight_augment"
+			}]
+		}
+		{
+			x: -0.3d
+			y: -2.1d
+			dependencies: ["5F424957043119BE"]
+			id: "60D9568EA53D0AAF"
+			tasks: [{
+				id: "537E84106581A2CE"
+				type: "item"
+				item: "mysticalagriculture:air_seeds"
+			}]
+		}
+		{
+			x: -1.1d
+			y: -2.1d
+			dependencies: ["5F424957043119BE"]
+			id: "69C1C2051093B7A7"
+			tasks: [{
+				id: "2B5ECD6C45344005"
+				type: "item"
+				item: "mysticalagriculture:earth_seeds"
+			}]
+		}
+		{
+			x: -1.9d
+			y: -2.1d
+			dependencies: ["5F424957043119BE"]
+			id: "10EABBF00858ACD2"
+			tasks: [{
+				id: "643A2A92FC01734B"
+				type: "item"
+				item: "mysticalagriculture:water_seeds"
+			}]
+		}
+		{
+			x: -2.7d
+			y: -2.1d
+			dependencies: ["5F424957043119BE"]
+			id: "041D2DD83D557479"
+			tasks: [{
+				id: "27A874E65BA8CC24"
+				type: "item"
+				item: "mysticalagriculture:fire_seeds"
+			}]
+		}
+		{
+			x: 0.1d
+			y: -1.4d
+			dependencies: ["5F424957043119BE"]
+			id: "29EF904E0C30F70F"
+			tasks: [{
+				id: "08E848800D0E0734"
+				type: "item"
+				item: "mysticalagriculture:inferium_seeds"
+			}]
+		}
+		{
+			x: -0.7d
+			y: -1.4d
+			dependencies: ["5F424957043119BE"]
+			id: "3FB96800BED11E9A"
+			tasks: [{
+				id: "61FFB29236219F9D"
+				type: "item"
+				item: "mysticalagriculture:stone_seeds"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.4d
+			dependencies: ["5F424957043119BE"]
+			id: "4C7E79EED01637BC"
+			tasks: [{
+				id: "384C7E10293C5009"
+				type: "item"
+				item: "mysticalagriculture:dirt_seeds"
+			}]
+		}
+		{
+			x: -2.3d
+			y: -1.4d
+			dependencies: ["5F424957043119BE"]
+			id: "667A86789A256748"
+			tasks: [{
+				id: "4D58066F709A96DF"
+				type: "item"
+				item: "mysticalagriculture:wood_seeds"
+			}]
+		}
+		{
+			x: -3.1d
+			y: -1.4d
+			dependencies: ["5F424957043119BE"]
+			id: "3B0B08C1D5FF8D4D"
+			tasks: [{
+				id: "7B96D35D5E702C63"
+				type: "item"
+				item: "mysticalagriculture:ice_seeds"
+			}]
+		}
+		{
+			x: -0.3d
+			y: -0.7d
+			dependencies: ["5F424957043119BE"]
+			id: "3C6D6F4A04E0C27D"
+			tasks: [{
+				id: "3BA845359FC77BD5"
+				type: "item"
+				item: "mysticalagriculture:deepslate_seeds"
+			}]
+		}
+		{
+			x: 4.7d
+			y: 0.9d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "79A1F82533F7BB4C"
+			tasks: [{
+				id: "3FED9CCF24DCAA08"
+				type: "item"
+				item: "mysticalagriculture:pig_seeds"
+			}]
+		}
+		{
+			x: 5.1d
+			y: 0.2d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "7F05B9523CA95F3B"
+			tasks: [{
+				id: "164D32019D7F9549"
+				type: "item"
+				item: "mysticalagriculture:nature_seeds"
+			}]
+		}
+		{
+			x: 5.9d
+			y: 0.2d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "7E23220F6BA416DF"
+			tasks: [{
+				id: "5C8CE2B366994F06"
+				type: "item"
+				item: "mysticalagriculture:dye_seeds"
+			}]
+		}
+		{
+			x: 6.7d
+			y: 0.2d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "57741932552BB1A2"
+			tasks: [{
+				id: "04BE4022A3144A4D"
+				type: "item"
+				item: "mysticalagriculture:nether_seeds"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.2d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "4849EA85A5A5C240"
+			tasks: [{
+				id: "4E0CC4D44163C8DD"
+				type: "item"
+				item: "mysticalagriculture:coal_seeds"
+			}]
+		}
+		{
+			x: 8.3d
+			y: 0.2d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "76C2396261E33FCA"
+			tasks: [{
+				id: "190356151E8F1FB6"
+				type: "item"
+				item: "mysticalagriculture:coral_seeds"
+			}]
+		}
+		{
+			x: 9.1d
+			y: 0.2d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "39916941BACC8811"
+			tasks: [{
+				id: "211F1FD67BC7C708"
+				type: "item"
+				item: "mysticalagriculture:honey_seeds"
+			}]
+		}
+		{
+			x: 9.9d
+			y: 0.2d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "25F629F07883F6E1"
+			tasks: [{
+				id: "6AAE6333969E798C"
+				type: "item"
+				item: "mysticalagriculture:amethyst_seeds"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.9d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "667677FAB77C79D1"
+			tasks: [{
+				id: "33C63514C67347D8"
+				type: "item"
+				item: "mysticalagriculture:chicken_seeds"
+			}]
+		}
+		{
+			x: 6.3d
+			y: 0.9d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "49E101AFA0F7BD8E"
+			tasks: [{
+				id: "160FB49FDB14448F"
+				type: "item"
+				item: "mysticalagriculture:cow_seeds"
+			}]
+		}
+		{
+			x: 7.1d
+			y: 0.9d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "5E495C4B536A5B19"
+			tasks: [{
+				id: "02B3D34A45FAF6BB"
+				type: "item"
+				item: "mysticalagriculture:sheep_seeds"
+			}]
+		}
+		{
+			x: 7.9d
+			y: 0.9d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "53F88D47442F5197"
+			tasks: [{
+				id: "4AC4E421513BF975"
+				type: "item"
+				item: "mysticalagriculture:squid_seeds"
+			}]
+		}
+		{
+			x: 8.7d
+			y: 0.9d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "52275B4392CF3442"
+			tasks: [{
+				id: "08BC58ABE1926E6B"
+				type: "item"
+				item: "mysticalagriculture:fish_seeds"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.9d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "34A7911AE227DD82"
+			tasks: [{
+				id: "5D90ED70B524A994"
+				type: "item"
+				item: "mysticalagriculture:slime_seeds"
+			}]
+		}
+		{
+			x: 10.3d
+			y: 0.9d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "5AE8947B0FB4EC18"
+			tasks: [{
+				id: "148B68F5F132FDA1"
+				type: "item"
+				item: "mysticalagriculture:turtle_seeds"
+			}]
+		}
+		{
+			x: 5.1d
+			y: 1.6d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "7A63DC5579848BCF"
+			tasks: [{
+				id: "78A26A940A931D6D"
+				type: "item"
+				item: "mysticalagriculture:rubber_seeds"
+			}]
+		}
+		{
+			x: 5.9d
+			y: 1.6d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "4EA04D01C68BCAD1"
+			tasks: [{
+				id: "44E41B6E0AC5CBED"
+				type: "item"
+				item: "mysticalagriculture:silicon_seeds"
+			}]
+		}
+		{
+			x: 6.7d
+			y: 1.6d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "2AFCA614C19FE031"
+			tasks: [{
+				id: "2FE39A0E7C762FEA"
+				type: "item"
+				item: "mysticalagriculture:sulfur_seeds"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.6d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "773960D7179DBB68"
+			tasks: [{
+				id: "6E2F64B624A3D982"
+				type: "item"
+				item: "mysticalagriculture:aluminum_seeds"
+			}]
+		}
+		{
+			x: 8.3d
+			y: 1.6d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "5C58EC313255AE19"
+			tasks: [{
+				id: "0CE682D6554D2DB9"
+				type: "item"
+				item: "mysticalagriculture:saltpeter_seeds"
+			}]
+		}
+		{
+			x: 9.1d
+			y: 1.6d
+			dependencies: ["0A9CBEA6028E306F"]
+			id: "69F95571AF347E8F"
+			tasks: [{
+				id: "059FAF645B4013CE"
+				type: "item"
+				item: "mysticalagriculture:apatite_seeds"
+			}]
+		}
+		{
+			x: -0.3d
+			y: 1.4d
+			dependencies: ["6273C65F736B688B"]
+			id: "16B8A7EAC2BE1DF4"
+			tasks: [{
+				id: "4AD64A0EA6BEDDED"
+				type: "item"
+				item: "mysticalagriculture:iron_seeds"
+			}]
+		}
+		{
+			x: -1.1d
+			y: 1.4d
+			dependencies: ["6273C65F736B688B"]
+			id: "2B1FAD5AE7CF91BD"
+			tasks: [{
+				id: "15E81FD158DB9710"
+				type: "item"
+				item: "mysticalagriculture:copper_seeds"
+			}]
+		}
+		{
+			x: -1.9d
+			y: 1.4d
+			dependencies: ["6273C65F736B688B"]
+			id: "1F39E590EAF8DD39"
+			tasks: [{
+				id: "457B8DD77D79F6F6"
+				type: "item"
+				item: "mysticalagriculture:nether_quartz_seeds"
+			}]
+		}
+		{
+			x: -2.7d
+			y: 1.4d
+			dependencies: ["6273C65F736B688B"]
+			id: "5B2EEAE41683F55C"
+			tasks: [{
+				id: "623B19339F89F5CD"
+				type: "item"
+				item: "mysticalagriculture:glowstone_seeds"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.4d
+			dependencies: ["6273C65F736B688B"]
+			id: "1A66DA4D088F8CA4"
+			tasks: [{
+				id: "4BFA0B7FEA1A82C7"
+				type: "item"
+				item: "mysticalagriculture:redstone_seeds"
+			}]
+		}
+		{
+			x: -4.3d
+			y: 1.4d
+			dependencies: ["6273C65F736B688B"]
+			id: "440B2513E897915B"
+			tasks: [{
+				id: "6B799869EA139549"
+				type: "item"
+				item: "mysticalagriculture:obsidian_seeds"
+			}]
+		}
+		{
+			x: -5.1d
+			y: 1.4d
+			dependencies: ["6273C65F736B688B"]
+			id: "070CD5BDB970CFC4"
+			tasks: [{
+				id: "0325F53776265900"
+				type: "item"
+				item: "mysticalagriculture:prismarine_seeds"
+			}]
+		}
+		{
+			x: 0.1d
+			y: 2.1d
+			dependencies: ["6273C65F736B688B"]
+			id: "66FADD8E26085F24"
+			tasks: [{
+				id: "602B2C0B65A025EF"
+				type: "item"
+				item: "mysticalagriculture:zombie_seeds"
+			}]
+		}
+		{
+			x: -0.7d
+			y: 2.1d
+			dependencies: ["6273C65F736B688B"]
+			id: "39CC6145724ECD2D"
+			tasks: [{
+				id: "662A3AF155491EAF"
+				type: "item"
+				item: "mysticalagriculture:skeleton_seeds"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.1d
+			dependencies: ["6273C65F736B688B"]
+			id: "7F87458C495464B7"
+			tasks: [{
+				id: "4F64DCB2BE9FC9DD"
+				type: "item"
+				item: "mysticalagriculture:creeper_seeds"
+			}]
+		}
+		{
+			x: -2.3d
+			y: 2.1d
+			dependencies: ["6273C65F736B688B"]
+			id: "389F9F8400582972"
+			tasks: [{
+				id: "613358E3A648630A"
+				type: "item"
+				item: "mysticalagriculture:spider_seeds"
+			}]
+		}
+		{
+			x: -3.1d
+			y: 2.1d
+			dependencies: ["6273C65F736B688B"]
+			id: "3D3C768D6FEF5A0A"
+			tasks: [{
+				id: "0210F2A20B077AEF"
+				type: "item"
+				item: "mysticalagriculture:rabbit_seeds"
+			}]
+		}
+		{
+			x: -3.9d
+			y: 2.1d
+			dependencies: ["6273C65F736B688B"]
+			id: "1A60A0E2F83C814A"
+			tasks: [{
+				id: "0AE8CED2F5C83B89"
+				type: "item"
+				item: "mysticalagriculture:tin_seeds"
+			}]
+		}
+		{
+			x: -4.7d
+			y: 2.1d
+			dependencies: ["6273C65F736B688B"]
+			id: "748B71C2C950F7A9"
+			tasks: [{
+				id: "35C515F54A8C8FC2"
+				type: "item"
+				item: "mysticalagriculture:bronze_seeds"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.1d
+			dependencies: ["6273C65F736B688B"]
+			id: "7880D5CBD0874FA7"
+			tasks: [{
+				id: "16584E822F193933"
+				type: "item"
+				item: "mysticalagriculture:zinc_seeds"
+			}]
+		}
+		{
+			x: -0.3d
+			y: 2.8d
+			dependencies: ["6273C65F736B688B"]
+			id: "4503B58209A72CCD"
+			tasks: [{
+				id: "44536FAD833A0DA0"
+				type: "item"
+				item: "mysticalagriculture:brass_seeds"
+			}]
+		}
+		{
+			x: -1.1d
+			y: 2.8d
+			dependencies: ["6273C65F736B688B"]
+			id: "7D532E635A9D2A3E"
+			tasks: [{
+				id: "6C2FE806AA6BF7AF"
+				type: "item"
+				item: "mysticalagriculture:silver_seeds"
+			}]
+		}
+		{
+			x: -1.9d
+			y: 2.8d
+			dependencies: ["6273C65F736B688B"]
+			id: "71A64EDFA5CCA3FF"
+			tasks: [{
+				id: "662D2C6D9F1C7961"
+				type: "item"
+				item: "mysticalagriculture:lead_seeds"
+			}]
+		}
+		{
+			x: -2.7d
+			y: 2.8d
+			dependencies: ["6273C65F736B688B"]
+			id: "74E595225BEBFE88"
+			tasks: [{
+				id: "45C83AEC6240AD55"
+				type: "item"
+				item: "mysticalagriculture:graphite_seeds"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.8d
+			dependencies: ["6273C65F736B688B"]
+			id: "0F43D4780EB1B0C8"
+			tasks: [{
+				id: "7AE94D1BA9A61AAF"
+				type: "item"
+				item: "mysticalagriculture:sky_stone_seeds"
+			}]
+		}
+		{
+			x: -4.3d
+			y: 2.8d
+			dependencies: ["6273C65F736B688B"]
+			id: "180C88A34E13E4AD"
+			tasks: [{
+				id: "0B9BC28D5F4992BC"
+				type: "item"
+				item: "mysticalagriculture:certus_quartz_seeds"
+			}]
+		}
+		{
+			x: 5.1d
+			y: 2.6d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "28C8C891FB50254B"
+			tasks: [{
+				id: "16054DD91E63020C"
+				type: "item"
+				item: "mysticalagriculture:gold_seeds"
+			}]
+		}
+		{
+			x: 5.9d
+			y: 2.6d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "4C4B75431B85ED39"
+			tasks: [{
+				id: "2621FB74C47C33C7"
+				type: "item"
+				item: "mysticalagriculture:lapis_lazuli_seeds"
+			}]
+		}
+		{
+			x: 6.7d
+			y: 2.6d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "133D3C6C1B80508A"
+			tasks: [{
+				id: "7F8873413196F78A"
+				type: "item"
+				item: "mysticalagriculture:end_seeds"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.6d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "1AB37D270A1C1096"
+			tasks: [{
+				id: "1D354C923527DBE0"
+				type: "item"
+				item: "mysticalagriculture:experience_seeds"
+			}]
+		}
+		{
+			x: 8.3d
+			y: 2.6d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "05DE17E0FA71E542"
+			tasks: [{
+				id: "5B4494692B86E9EF"
+				type: "item"
+				item: "mysticalagriculture:blaze_seeds"
+			}]
+		}
+		{
+			x: 9.1d
+			y: 2.6d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "1C06403C18CEFF80"
+			tasks: [{
+				id: "76DA4E30CF892605"
+				type: "item"
+				item: "mysticalagriculture:ghast_seeds"
+			}]
+		}
+		{
+			x: 9.9d
+			y: 2.6d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "79010446DC93E206"
+			tasks: [{
+				id: "7E59A0BDE74C2E24"
+				type: "item"
+				item: "mysticalagriculture:enderman_seeds"
+			}]
+		}
+		{
+			x: 4.7d
+			y: 3.3d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "11F444D8A642DED0"
+			tasks: [{
+				id: "545AB717D37BE11F"
+				type: "item"
+				item: "mysticalagriculture:steel_seeds"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.3d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "79E27E91D5E71263"
+			tasks: [{
+				id: "16EF6EB60790B104"
+				type: "item"
+				item: "mysticalagriculture:nickel_seeds"
+			}]
+		}
+		{
+			x: 6.3d
+			y: 3.3d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "7DD8A697043C47DE"
+			tasks: [{
+				id: "106DC769016B5BFA"
+				type: "item"
+				item: "mysticalagriculture:constantan_seeds"
+			}]
+		}
+		{
+			x: 7.1d
+			y: 3.3d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "22CC68F69DFA6E3B"
+			tasks: [{
+				id: "3C5C7021741FF82C"
+				type: "item"
+				item: "mysticalagriculture:electrum_seeds"
+			}]
+		}
+		{
+			x: 7.9d
+			y: 3.3d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "6641CBEE0C44B7E7"
+			tasks: [{
+				id: "6EEC0B2DE56C3C65"
+				type: "item"
+				item: "mysticalagriculture:invar_seeds"
+			}]
+		}
+		{
+			x: 8.7d
+			y: 3.3d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "7473DA82B8F68FCC"
+			tasks: [{
+				id: "7D63584C7442E8D1"
+				type: "item"
+				item: "mysticalagriculture:mithril_seeds"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.3d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "2C404D009C8BD64D"
+			tasks: [{
+				id: "4F8E49E5BC092323"
+				type: "item"
+				item: "mysticalagriculture:tungsten_seeds"
+			}]
+		}
+		{
+			x: 10.3d
+			y: 3.3d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "3AD5E10E9B95F518"
+			tasks: [{
+				id: "31DBB948745A14B9"
+				type: "item"
+				item: "mysticalagriculture:titanium_seeds"
+			}]
+		}
+		{
+			x: 5.1d
+			y: 4.0d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "6B262EFC223525C9"
+			tasks: [{
+				id: "48FDF9AF50342806"
+				type: "item"
+				item: "mysticalagriculture:uranium_seeds"
+			}]
+		}
+		{
+			x: 5.9d
+			y: 4.0d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "5FB36B8859E0B40A"
+			tasks: [{
+				id: "67ADEA59566A07A2"
+				type: "item"
+				item: "mysticalagriculture:chrome_seeds"
+			}]
+		}
+		{
+			x: 6.7d
+			y: 4.0d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "63CF8F14E20EE3F9"
+			tasks: [{
+				id: "18BB3ACAAB70B65A"
+				type: "item"
+				item: "mysticalagriculture:ruby_seeds"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.0d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "36243D7F2E316D85"
+			tasks: [{
+				id: "10005169AA38E79A"
+				type: "item"
+				item: "mysticalagriculture:sapphire_seeds"
+			}]
+		}
+		{
+			x: 8.3d
+			y: 4.0d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "76CFA6817952A0C5"
+			tasks: [{
+				id: "53F87FD898FDF299"
+				type: "item"
+				item: "mysticalagriculture:hop_graphite_seeds"
+			}]
+		}
+		{
+			x: 9.1d
+			y: 4.0d
+			dependencies: ["6ED9A6F75180A8DD"]
+			id: "219D6752BC658E3A"
+			tasks: [{
+				id: "7E085EEB492EB3BE"
+				type: "item"
+				item: "mysticalagriculture:fluix_seeds"
+			}]
+		}
+		{
+			x: 0.1d
+			y: 4.5d
+			dependencies: ["7C2B81DC38791C7F"]
+			id: "6521CDECAC28BBE3"
+			tasks: [{
+				id: "2A57FD508CAC33E6"
+				type: "item"
+				item: "mysticalagriculture:diamond_seeds"
+			}]
+		}
+		{
+			x: -0.7d
+			y: 4.5d
+			dependencies: ["7C2B81DC38791C7F"]
+			id: "1CA95FB6E0821382"
+			tasks: [{
+				id: "64E50F91803FFEA2"
+				type: "item"
+				item: "mysticalagriculture:emerald_seeds"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["7C2B81DC38791C7F"]
+			id: "66588EF9ACF1EDAB"
+			tasks: [{
+				id: "39E876F5F5A7D26F"
+				type: "item"
+				item: "mysticalagriculture:netherite_seeds"
+			}]
+		}
+		{
+			x: -2.3d
+			y: 4.5d
+			dependencies: ["7C2B81DC38791C7F"]
+			id: "2BE4D8E6E14FD899"
+			tasks: [{
+				id: "4520AE35FD283AB2"
+				type: "item"
+				item: "mysticalagriculture:wither_skeleton_seeds"
+			}]
+		}
+		{
+			x: -3.1d
+			y: 4.5d
+			dependencies: ["7C2B81DC38791C7F"]
+			id: "71DF0E1050CE2418"
+			tasks: [{
+				id: "40F7164A04EE3768"
+				type: "item"
+				item: "mysticalagriculture:platinum_seeds"
+			}]
+		}
+		{
+			x: -3.9d
+			y: 4.5d
+			dependencies: ["7C2B81DC38791C7F"]
+			id: "0FB9608706E918B8"
+			tasks: [{
+				id: "79F8CF10F4F15F2C"
+				type: "item"
+				item: "mysticalagriculture:iridium_seeds"
+			}]
+		}
+		{
+			x: 4.7d
+			y: 5.7d
+			dependencies: ["2CEDD541B7274DF9"]
+			id: "39F0832EE55E474B"
+			tasks: [{
+				id: "23749661B7B4AD22"
+				type: "item"
+				item: "mysticalagriculture:nether_star_seeds"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 5.7d
+			dependencies: ["2CEDD541B7274DF9"]
+			id: "1968948CED858C3B"
+			tasks: [{
+				id: "77E6DA35207F28AB"
+				type: "item"
+				item: "mysticalagriculture:dragon_egg_seeds"
+			}]
+		}
+		{
+			x: 5.4d
+			y: -2.6d
+			dependencies: ["7A5C65C2B701C013"]
+			id: "79ADCB448DD9EEA2"
+			tasks: [{
+				id: "603B1A077C8783FC"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:supremium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.2d
+			y: -2.6d
+			dependencies: ["7A5C65C2B701C013"]
+			id: "40EC1088A2A17B68"
+			tasks: [{
+				id: "7BF99C7012FFDBF2"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:supremium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.6d
+			dependencies: ["7A5C65C2B701C013"]
+			id: "1D1228172EF02920"
+			tasks: [{
+				id: "4B97AEBFBBBEB83E"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:supremium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.8d
+			y: -2.6d
+			dependencies: ["7A5C65C2B701C013"]
+			id: "7486ED32371EEE8A"
+			tasks: [{
+				id: "74CA3DA2D953054F"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:supremium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.3d
+			y: -3.6d
+			dependencies: ["50B7F17764173144"]
+			id: "2AE4D9E74EC1ADD2"
+			tasks: [{
+				id: "7F06AEF482623C87"
+				type: "item"
+				item: "mysticalagriculture:inferium_farmland"
+			}]
+		}
+		{
+			x: -1.1d
+			y: -3.6d
+			dependencies: [
+				"2AE4D9E74EC1ADD2"
+				"7A12A19C015673E2"
+			]
+			id: "35222E0034C4F8A4"
+			tasks: [{
+				id: "278C3CFFEC9836FC"
+				type: "item"
+				item: "mysticalagriculture:prudentium_farmland"
+			}]
+		}
+		{
+			x: -1.9d
+			y: -3.6d
+			dependencies: [
+				"35222E0034C4F8A4"
+				"40F7D3D96505F9F4"
+			]
+			id: "14214B14BC9D5D96"
+			tasks: [{
+				id: "5B498057FA85DD1F"
+				type: "item"
+				item: "mysticalagriculture:tertium_farmland"
+			}]
+		}
+		{
+			x: -2.7d
+			y: -3.6d
+			dependencies: [
+				"14214B14BC9D5D96"
+				"4899CABAC3BD76F8"
+			]
+			id: "6A48AA71E5B84FED"
+			tasks: [{
+				id: "492FF7B69CE8BB56"
+				type: "item"
+				item: "mysticalagriculture:imperium_farmland"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.6d
+			dependencies: [
+				"6A48AA71E5B84FED"
+				"371FA96626CDD837"
+			]
+			id: "6CD3950B24B705CF"
+			tasks: [{
+				id: "3716F8727F591058"
+				type: "item"
+				item: "mysticalagriculture:supremium_farmland"
+			}]
+		}
+		{
+			x: -4.3d
+			y: -3.6d
+			dependencies: [
+				"6CD3950B24B705CF"
+				"3FAF89B87127E3CD"
+			]
+			id: "54F5D1CA39712D8A"
+			tasks: [{
+				id: "56BBAECB4301AA52"
+				type: "item"
+				item: "mysticalagradditions:insanium_farmland"
+			}]
+		}
+		{
+			x: -0.3d
+			y: -4.6d
+			dependencies: ["50B7F17764173144"]
+			id: "18DDBB4A9D8BDB8B"
+			tasks: [{
+				id: "32349A4D6185336F"
+				type: "item"
+				item: "mysticalagriculture:inferium_growth_accelerator"
+			}]
+		}
+		{
+			x: -1.1d
+			y: -4.6d
+			dependencies: ["7A12A19C015673E2"]
+			id: "4FFAE953188899F8"
+			tasks: [{
+				id: "5994AF9FD38055D2"
+				type: "item"
+				item: "mysticalagriculture:prudentium_growth_accelerator"
+			}]
+		}
+		{
+			x: -1.9d
+			y: -4.6d
+			dependencies: ["40F7D3D96505F9F4"]
+			id: "36D74002D371657B"
+			tasks: [{
+				id: "697B0D079489056F"
+				type: "item"
+				item: "mysticalagriculture:tertium_growth_accelerator"
+			}]
+		}
+		{
+			x: -2.7d
+			y: -4.6d
+			dependencies: ["4899CABAC3BD76F8"]
+			id: "61ECF43ED7A10CF0"
+			tasks: [{
+				id: "238876311679410B"
+				type: "item"
+				item: "mysticalagriculture:imperium_growth_accelerator"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.6d
+			dependencies: ["371FA96626CDD837"]
+			id: "1E50B03DD84DBC7D"
+			tasks: [{
+				id: "67F2D77253CA099C"
+				type: "item"
+				item: "mysticalagriculture:supremium_growth_accelerator"
+			}]
+		}
+	]
+}

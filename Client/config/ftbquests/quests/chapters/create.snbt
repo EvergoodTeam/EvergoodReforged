@@ -1,0 +1,400 @@
+{
+	id: "172809D82DD6C966"
+	group: "7BE0AFFF53750A70"
+	order_index: 2
+	filename: "create"
+	title: "Kinetic Contraptions"
+	icon: "create:deployer"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.7d
+			y: -0.17500000000000004d
+			dependencies: ["13BB12576160F4C7"]
+			size: 1.2d
+			id: "7107758FBA06F8A2"
+			tasks: [{
+				id: "61BD891EFAF6568C"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			x: 2.7d
+			y: 1.6d
+			dependencies: ["7107758FBA06F8A2"]
+			size: 1.2d
+			id: "32CD0FC96D5811A1"
+			tasks: [{
+				id: "2BC162B4705B9143"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: 2.6999999999999997d
+			y: 3.1d
+			dependencies: ["32CD0FC96D5811A1"]
+			id: "1A0D3429481A8CFD"
+			tasks: [{
+				id: "17F40AEE7BDA550A"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 2.3d
+			y: 5.3d
+			shape: "hexagon"
+			dependencies: ["1A0D3429481A8CFD"]
+			id: "5CD8B6B62D70A650"
+			tasks: [{
+				id: "24DD2277808CE06B"
+				type: "item"
+				item: "create:iron_sheet"
+			}]
+		}
+		{
+			x: 1.9d
+			y: 4.6d
+			dependencies: ["1A0D3429481A8CFD"]
+			id: "798EBEFD9B6DCCEE"
+			tasks: [{
+				id: "0347D8B21E86B63F"
+				type: "item"
+				item: "create:copper_sheet"
+			}]
+		}
+		{
+			x: 3.1d
+			y: 5.3d
+			dependencies: ["1A0D3429481A8CFD"]
+			id: "045B27FA9C77CD8D"
+			tasks: [{
+				id: "767C9F72C3287226"
+				type: "item"
+				item: "create:brass_sheet"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.6d
+			dependencies: ["1A0D3429481A8CFD"]
+			id: "390E34F886C45DB6"
+			tasks: [{
+				id: "38A73D702BD15268"
+				type: "item"
+				item: "create:golden_sheet"
+			}]
+		}
+		{
+			x: 2.7d
+			y: 4.6d
+			dependencies: ["1A0D3429481A8CFD"]
+			id: "5EECAC779F2DF096"
+			tasks: [{
+				id: "31FD0992D0C23EAF"
+				type: "item"
+				item: "createaddition:zinc_sheet"
+			}]
+		}
+		{
+			title: "Rotational Force"
+			x: 1.9d
+			y: 0.5d
+			dependencies: ["7107758FBA06F8A2"]
+			id: "2DB14620B50E2363"
+			tasks: [{
+				id: "15CABA032500DC6A"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			x: 1.8d
+			y: 7.0d
+			dependencies: ["6B4E28C70D293ECE"]
+			id: "3529729A28E1D336"
+			tasks: [{
+				id: "2B5FEE8DB0A8CB13"
+				type: "item"
+				item: "create:furnace_engine"
+			}]
+		}
+		{
+			x: 3.1d
+			y: 7.0d
+			dependencies: ["045B27FA9C77CD8D"]
+			id: "6B4E28C70D293ECE"
+			tasks: [{
+				id: "24A07A891FB52904"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+		}
+		{
+			title: "Conveyors"
+			x: 1.1d
+			y: 0.5d
+			subtitle: "Move that force!"
+			dependencies: ["2DB14620B50E2363"]
+			id: "53BE3F1D19AA85DD"
+			tasks: [
+				{
+					id: "719561BA5C09E8F3"
+					type: "item"
+					item: "create:shaft"
+				}
+				{
+					id: "1B5338B2E999DFC5"
+					type: "item"
+					item: "create:cogwheel"
+				}
+				{
+					id: "156387E24A922740"
+					type: "item"
+					item: "create:gearbox"
+				}
+			]
+		}
+		{
+			x: 1.1d
+			y: 1.6d
+			dependencies: [
+				"32CD0FC96D5811A1"
+				"53BE3F1D19AA85DD"
+			]
+			id: "53AD2F1532A95217"
+			tasks: [{
+				id: "38F2673519C276F7"
+				type: "item"
+				item: "create:speedometer"
+			}]
+		}
+		{
+			x: -0.2d
+			y: 1.6d
+			dependencies: [
+				"53AD2F1532A95217"
+				"17F40AEE7BDA550A"
+			]
+			id: "3541C9403A41BA68"
+			tasks: [{
+				id: "6F1C5889BD24936D"
+				type: "item"
+				item: "create:goggles"
+			}]
+		}
+		{
+			x: 1.1d
+			y: 7.0d
+			dependencies: ["6B4E28C70D293ECE"]
+			id: "3E65933725BCC618"
+			tasks: [{
+				id: "437CFBABF08EEB36"
+				type: "item"
+				item: "create:flywheel"
+			}]
+		}
+		{
+			x: 5.9d
+			y: 4.6d
+			dependencies: ["05EDEA272A71CEEB"]
+			id: "7AFEDCE4B706F4BA"
+			tasks: [{
+				id: "3965402DD1CB46A9"
+				type: "item"
+				item: {
+					id: "create:extendo_grip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.2d
+			y: 0.5d
+			dependencies: ["53BE3F1D19AA85DD"]
+			id: "14FE1E4C5808B791"
+			tasks: [{
+				id: "0432D9E8E225B661"
+				type: "item"
+				item: "create:wrench"
+			}]
+		}
+		{
+			x: 1.3d
+			y: 2.8d
+			dependencies: ["32CD0FC96D5811A1"]
+			id: "7BFC8365091EE06A"
+			tasks: [{
+				id: "18495A24D96D4554"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: 0.6d
+			y: 2.8d
+			dependencies: ["7BFC8365091EE06A"]
+			id: "44566F587043EEE7"
+			tasks: [{
+				id: "68B0D958058F5E82"
+				type: "item"
+				item: "create:basin"
+			}]
+		}
+		{
+			title: "Rose Quartz"
+			icon: "create:polished_rose_quartz"
+			x: 3.8d
+			y: 0.7d
+			subtitle: "Get that polish"
+			description: ["Hold in your off-hand either the Rose Quartz or the Sand Paper and hold in your main one the other and simply hold right-click!"]
+			dependencies: ["32CD0FC96D5811A1"]
+			id: "0EEAB8D6E2CA0D77"
+			tasks: [
+				{
+					id: "5529BDCAFE038B3A"
+					type: "item"
+					title: "Any #create:sandpaper"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "create:sandpaper"
+						}
+					}
+				}
+				{
+					id: "0E6F3C5104A6A1CC"
+					type: "item"
+					item: "create:rose_quartz"
+				}
+				{
+					id: "4FBF4219819EB9D5"
+					type: "item"
+					item: "create:polished_rose_quartz"
+				}
+			]
+		}
+		{
+			title: "Deployer"
+			x: 4.2d
+			y: 2.8d
+			description: [""]
+			dependencies: [
+				"08A33CEF1132B913"
+				"32CD0FC96D5811A1"
+			]
+			id: "473413A3DA358DFC"
+			tasks: [{
+				id: "237BEB4D25DC8042"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			x: 4.9d
+			y: 4.6d
+			dependencies: [
+				"7AFC24C5981BC293"
+				"390E34F886C45DB6"
+			]
+			id: "05EDEA272A71CEEB"
+			tasks: [{
+				id: "154327A2775652B7"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+		}
+		{
+			x: 4.9d
+			y: 6.2d
+			subtitle: "All about that control"
+			description: [
+				"The RSC allows you to have fine control over speed change when dealing with important recipes"
+				""
+				"Simply attach a Large Cogwheel and it'll try its best to maintain your desider speed, which you can configure by holding shift and using the scroll wheel"
+			]
+			dependencies: ["05EDEA272A71CEEB"]
+			id: "351BE0A72CE83F32"
+			tasks: [{
+				id: "2F77F2F4795BA1AD"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+		}
+		{
+			x: 4.2d
+			y: 1.4d
+			dependencies: ["0EEAB8D6E2CA0D77"]
+			id: "08A33CEF1132B913"
+			tasks: [{
+				id: "66C53E6FB397EB78"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+		}
+		{
+			x: 5.7d
+			y: 1.4d
+			dependencies: ["08A33CEF1132B913"]
+			id: "465DFCAC942D9EE3"
+			tasks: [{
+				id: "049A23CCE5E1A44D"
+				type: "item"
+				item: "createaddition:capacitor"
+			}]
+		}
+		{
+			x: 4.9d
+			y: 2.8d
+			dependencies: ["473413A3DA358DFC"]
+			id: "7AFC24C5981BC293"
+			tasks: [{
+				id: "4702742A212CD4A0"
+				type: "item"
+				item: "create:depot"
+			}]
+		}
+		{
+			x: 3.485d
+			y: 7.734999999999999d
+			dependencies: ["6B4E28C70D293ECE"]
+			size: 0.85d
+			id: "0C5A9CE98CBE25E2"
+			tasks: [{
+				id: "38F520C2EE1A910A"
+				type: "item"
+				item: "create:crafter_slot_cover"
+			}]
+		}
+		{
+			x: 0.7d
+			y: 5.3d
+			dependencies: ["5CD8B6B62D70A650"]
+			id: "5E8A98A0D2396AA8"
+			tasks: [{
+				id: "56D12D6591613B3F"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+		}
+		{
+			x: 0.255d
+			y: 4.505d
+			dependencies: ["5E8A98A0D2396AA8"]
+			size: 0.85d
+			id: "521533769439D615"
+			tasks: [{
+				id: "4789C0CF9AD2468B"
+				type: "item"
+				item: "createaddition:copper_spool"
+			}]
+		}
+	]
+}

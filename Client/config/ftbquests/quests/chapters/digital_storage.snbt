@@ -1,0 +1,436 @@
+{
+	id: "525D4AF5CB8868DD"
+	group: "12350A3CDCB47773"
+	order_index: 1
+	filename: "digital_storage"
+	title: "Digital Storage"
+	icon: "ae2:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.7d
+			y: -0.3d
+			dependencies: [
+				"2FFC84344F75DA96"
+				"465DFCAC942D9EE3"
+				"5497373C57D8DAF0"
+			]
+			id: "1223EE8A377972EF"
+			tasks: [{
+				id: "6213E38F34F1B2C8"
+				type: "item"
+				item: "ae2:inscriber"
+			}]
+		}
+		{
+			x: 0.8d
+			y: -0.3d
+			dependencies: ["1223EE8A377972EF"]
+			id: "3D9D07745E47628F"
+			tasks: [{
+				id: "49B801462C037F29"
+				type: "item"
+				item: "ae2:fluix_crystal"
+			}]
+		}
+		{
+			title: "Processors"
+			x: 0.4d
+			y: 2.0d
+			dependencies: ["453CE69E3FEB3322"]
+			id: "6E57ABE347B24975"
+			tasks: [
+				{
+					id: "35A0C58E33B116C5"
+					type: "item"
+					item: "ae2:logic_processor"
+				}
+				{
+					id: "76C58D10AB47B62A"
+					type: "item"
+					item: "ae2:calculation_processor"
+				}
+				{
+					id: "7F6819CF010FEF9A"
+					type: "item"
+					item: "ae2:engineering_processor"
+				}
+			]
+		}
+		{
+			x: 0.4d
+			y: 0.8d
+			dependencies: ["6E57ABE347B24975"]
+			size: 1.2d
+			id: "0B4F266780BE45F1"
+			tasks: [{
+				id: "47779985773F9D21"
+				type: "item"
+				item: "ae2:controller"
+			}]
+		}
+		{
+			title: "Glass Cable"
+			x: 1.8d
+			y: -0.3d
+			dependencies: ["3D9D07745E47628F"]
+			id: "2D1A0C4004CA6F18"
+			tasks: [{
+				id: "338F366CBAE54D33"
+				type: "item"
+				title: "Any #ae2:glass_cable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ae2:glass_cable"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.8d
+			y: 0.8d
+			dependencies: ["2D1A0C4004CA6F18"]
+			id: "7FFDF8BD2037247E"
+			tasks: [{
+				id: "7CE48C8471D7F52F"
+				type: "item"
+				item: "ae2:drive"
+			}]
+		}
+		{
+			title: "Meteorite"
+			x: -0.2d
+			y: -2.6d
+			dependencies: ["2FFC84344F75DA96"]
+			size: 1.2d
+			id: "774CC8AE3EB016E1"
+			tasks: [{
+				id: "36EF9377E1753713"
+				type: "structure"
+				icon: "ae2:sky_stone_block"
+				structure: "ae2:meteorite"
+			}]
+		}
+		{
+			title: "Presses"
+			x: -0.2d
+			y: -1.3d
+			dependencies: ["774CC8AE3EB016E1"]
+			id: "5497373C57D8DAF0"
+			tasks: [
+				{
+					id: "0F64389436EB21F2"
+					type: "item"
+					item: "ae2:calculation_processor_press"
+				}
+				{
+					id: "4ADC10BC0CD2EFEE"
+					type: "item"
+					item: "ae2:engineering_processor_press"
+				}
+				{
+					id: "00B13A42BA9CFDAA"
+					type: "item"
+					item: "ae2:logic_processor_press"
+				}
+				{
+					id: "039E045B7D697BD7"
+					type: "item"
+					item: "ae2:silicon_press"
+				}
+			]
+		}
+		{
+			x: 1.4d
+			y: -2.6d
+			dependencies: ["774CC8AE3EB016E1"]
+			id: "35513E7B28539CC4"
+			tasks: [{
+				id: "35695C5A9906A033"
+				type: "item"
+				item: "ae2:certus_quartz_crystal"
+			}]
+		}
+		{
+			x: 1.4d
+			y: -1.5d
+			dependencies: ["35513E7B28539CC4"]
+			id: "102C3F069F2FAB87"
+			tasks: [{
+				id: "637DB584D1B19ABE"
+				type: "item"
+				item: "ae2:silicon"
+			}]
+		}
+		{
+			title: "Printing"
+			x: -0.7d
+			y: 2.0d
+			dependencies: ["1223EE8A377972EF"]
+			id: "453CE69E3FEB3322"
+			tasks: [
+				{
+					id: "3F4E7EFFE9D84F7D"
+					type: "item"
+					item: "ae2:printed_calculation_processor"
+				}
+				{
+					id: "02AED6FD79D1D97D"
+					type: "item"
+					item: "ae2:printed_engineering_processor"
+				}
+				{
+					id: "1E0A24161D48B665"
+					type: "item"
+					item: "ae2:printed_logic_processor"
+				}
+				{
+					id: "0D587922D920F81B"
+					type: "item"
+					item: "ae2:printed_silicon"
+				}
+			]
+		}
+		{
+			x: 0.4d
+			y: 3.3d
+			dependencies: ["6E57ABE347B24975"]
+			id: "08BD77474CBA2379"
+			tasks: [{
+				id: "0BC70ED777163E1B"
+				type: "item"
+				item: "ae2:cell_component_1k"
+			}]
+		}
+		{
+			x: 0.4d
+			y: 4.2d
+			dependencies: ["08BD77474CBA2379"]
+			id: "23B5919EEB518FF7"
+			tasks: [{
+				id: "3F73D80B814527BE"
+				type: "item"
+				item: "ae2:cell_component_4k"
+			}]
+		}
+		{
+			x: 0.4d
+			y: 5.1d
+			dependencies: ["23B5919EEB518FF7"]
+			id: "1E49CDC6387FAC88"
+			tasks: [{
+				id: "55028DDD3946F584"
+				type: "item"
+				item: "ae2:cell_component_16k"
+			}]
+		}
+		{
+			x: 0.4d
+			y: 6.0d
+			dependencies: ["1E49CDC6387FAC88"]
+			id: "2EE5820227D6FA5B"
+			tasks: [{
+				id: "47BB6F9CDCC9EA12"
+				type: "item"
+				item: "ae2:cell_component_64k"
+			}]
+		}
+		{
+			title: "Cores"
+			x: 1.5d
+			y: 2.0d
+			dependencies: ["6E57ABE347B24975"]
+			id: "6C4922395204227C"
+			tasks: [
+				{
+					id: "4DC47E5A4B602420"
+					type: "item"
+					item: "ae2:formation_core"
+				}
+				{
+					id: "7201E972C36F1BF0"
+					type: "item"
+					item: "ae2:annihilation_core"
+				}
+			]
+		}
+		{
+			x: 2.8d
+			y: 2.0d
+			dependencies: ["6C4922395204227C"]
+			id: "597D6804DFA3BA74"
+			tasks: [{
+				id: "49358AF8344D0EE3"
+				type: "item"
+				item: "ae2:interface"
+			}]
+		}
+		{
+			x: 3.7d
+			y: 2.0d
+			dependencies: ["597D6804DFA3BA74"]
+			id: "3FDE8297FC10822E"
+			tasks: [{
+				id: "05FD37C89B367C51"
+				type: "item"
+				item: "ae2:molecular_assembler"
+			}]
+		}
+		{
+			title: "Buses"
+			x: 1.9d
+			y: 2.8d
+			dependencies: ["6C4922395204227C"]
+			id: "4B15E2FA4985A0F8"
+			tasks: [
+				{
+					id: "2016DA752460F480"
+					type: "item"
+					item: "ae2:storage_bus"
+				}
+				{
+					id: "78B36D434F340825"
+					type: "item"
+					item: "ae2:import_bus"
+				}
+				{
+					id: "7963ADF459842016"
+					type: "item"
+					item: "ae2:export_bus"
+				}
+			]
+		}
+		{
+			title: "Cards"
+			x: 1.9d
+			y: 3.9d
+			dependencies: ["4B15E2FA4985A0F8"]
+			id: "5B0AD8B9B38998C9"
+			tasks: [
+				{
+					id: "00BE9672B0867E67"
+					type: "item"
+					item: "ae2:speed_card"
+				}
+				{
+					id: "2106C41D5D6A4846"
+					type: "item"
+					item: "ae2:crafting_card"
+				}
+				{
+					id: "37DFC646C2199F75"
+					type: "item"
+					item: "ae2:redstone_card"
+				}
+			]
+		}
+		{
+			title: "Terminals"
+			x: 3.1d
+			y: -0.3d
+			dependencies: ["2D1A0C4004CA6F18"]
+			id: "2F0FAF45D08DC4CE"
+			tasks: [
+				{
+					id: "0CA049A7D8AA25B4"
+					type: "item"
+					item: "ae2:terminal"
+				}
+				{
+					id: "04938FE0C69D909F"
+					type: "item"
+					item: "ae2:crafting_terminal"
+				}
+				{
+					id: "2539A74096FD35E8"
+					type: "item"
+					item: "ae2:pattern_encoding_terminal"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["2F0FAF45D08DC4CE"]
+			id: "5DD1876B9C7A9BE0"
+			tasks: [{
+				id: "3FB61011A9892A05"
+				type: "item"
+				item: "ae2:blank_pattern"
+			}]
+		}
+		{
+			x: 2.3d
+			y: -1.9d
+			dependencies: ["35513E7B28539CC4"]
+			id: "40CFEB500032C3C0"
+			tasks: [{
+				id: "531A8B787F4FF1E7"
+				type: "item"
+				item: "ae2:charger"
+			}]
+		}
+		{
+			x: 3.3d
+			y: -1.9d
+			dependencies: ["40CFEB500032C3C0"]
+			id: "52510341D31BBA70"
+			tasks: [{
+				id: "5313733169AB710B"
+				type: "item"
+				item: "ae2:charged_certus_quartz_crystal"
+			}]
+		}
+		{
+			title: "Wireless"
+			x: 4.3d
+			y: -0.3d
+			dependencies: ["2F0FAF45D08DC4CE"]
+			id: "6D089A71F9E21EC6"
+			tasks: [
+				{
+					id: "2984289A559E09E6"
+					type: "item"
+					item: "ae2:security_station"
+				}
+				{
+					id: "05AC9B5474F8EE88"
+					type: "item"
+					item: "ae2:wireless_access_point"
+				}
+				{
+					id: "5615A98862A86402"
+					type: "item"
+					item: "ae2:wireless_crafting_terminal"
+				}
+			]
+		}
+		{
+			title: "Crafting CPU"
+			x: 3.7d
+			y: 3.2d
+			dependencies: ["3FDE8297FC10822E"]
+			id: "5BD4B2CE3FE9986A"
+			tasks: [
+				{
+					id: "217C6C28AD38D24C"
+					type: "item"
+					item: "ae2:64k_crafting_storage"
+				}
+				{
+					id: "2A787CDCFABB0376"
+					type: "item"
+					item: "ae2:crafting_monitor"
+				}
+				{
+					id: "72400A5DCF37011E"
+					type: "item"
+					item: "ae2:crafting_accelerator"
+				}
+			]
+		}
+	]
+}

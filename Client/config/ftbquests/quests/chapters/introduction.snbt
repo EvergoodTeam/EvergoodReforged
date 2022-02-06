@@ -1,0 +1,42 @@
+{
+	id: "6FC1105EE4FB09BB"
+	group: ""
+	order_index: 0
+	filename: "introduction"
+	title: "Introduction"
+	icon: "minecraft:writable_book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Presentation"
+		icon: {
+			id: "mysticalagriculture:amethyst_essence"
+			Count: 1b
+			tag: {
+				Enchantments: [{ }]
+			}
+		}
+		x: 0.5d
+		y: -1.5d
+		shape: "hexagon"
+		subtitle: "Some information about Evergood Reforged"
+		description: [
+			"Welcome to Evergood Reforged!"
+			""
+			"This is a modpack with many mods, all tweaked to function together and make an interesting and challenging progression path for the player"
+			""
+			"Some of these tweaks are recipe changes, most of which will make your file harder"
+			""
+			"This Quest Book will guide you through many different mods thanks to lots of hand-crafted quests, with each having information and guides about the tasks you're required to do, so you can also learn while completing them"
+			""
+			"Good luck and have fun!"
+		]
+		size: 2.0d
+		optional: true
+		id: "563707502534504E"
+		tasks: [{
+			id: "64E11528D21EF805"
+			type: "checkmark"
+		}]
+	}]
+}

@@ -11,7 +11,6 @@ onEvent('recipes', event => {
 
     // Immersive Engineering ----------------------------------------------------------------------
     
-
     
     // Wires
     let immMats = ['copper', 'electrum']
@@ -71,7 +70,6 @@ onEvent('recipes', event => {
     })
 
 
-
     // Mechanical Component
     event.remove({output: 'immersiveengineering:component_iron'})
     event.shaped('immersiveengineering:component_iron', [
@@ -94,7 +92,6 @@ onEvent('recipes', event => {
     })
 
 
-
     // Accumulators
     event.remove({output: 'immersiveengineering:capacitor_lv'})
     event.shaped('immersiveengineering:capacitor_lv', [
@@ -104,7 +101,7 @@ onEvent('recipes', event => {
       ], {
         P: '#forge:plates/silver',
         C: 'immersiveengineering:wirecoil_copper',
-        E: 'create:electron_tube',
+        E: 'createaddition:capacitor',
         T: 'immersiveengineering:treated_wood_horizontal',
         L: 'immersiveengineering:light_engineering'
     })
@@ -135,12 +132,50 @@ onEvent('recipes', event => {
         L: 'immersiveengineering:light_engineering'
     })
 
+
+    // Hammer
+    event.replaceInput({id: 'immersiveengineering:crafting/hammer'}, 'minecraft:iron_ingot', 'create:iron_sheet')
+
+    // Engineer's Workbench
+    event.replaceInput({id: 'immersiveengineering:crafting/workbench'}, 'minecraft:iron_ingot', '#forge:ingots/steel')
+
+    // Redstone Engineering Block
+    event.remove({output: 'immersiveengineering:rs_engineering'})
+    event.shaped('immersiveengineering:rs_engineering', [
+        'IRI',
+        'RCR',
+        'IRI'
+      ], {
+        I: 'immersiveengineering:sheetmetal_iron',
+        R: 'minecraft:redstone',
+        C: 'createaddition:copper_spool'
+    })
+
+    // Light Engineering Block
+    event.remove({output: 'immersiveengineering:light_engineering'})
+    event.shaped('immersiveengineering:light_engineering', [
+        'IMI',
+        'MCM',
+        'IMI'
+      ], {
+        I: 'immersiveengineering:sheetmetal_iron',
+        M: 'immersiveengineering:component_iron',
+        C: 'createaddition:copper_spool'
+    })
+
+    // Heavy Engineering Block
+    event.remove({output: 'immersiveengineering:heavy_engineering'})
+    event.shaped('immersiveengineering:heavy_engineering', [
+        'SMS',
+        'MCM',
+        'SMS'
+      ], {
+        S: 'immersiveengineering:sheetmetal_steel',
+        M: 'immersiveengineering:component_steel',
+        C: 'immersiveengineering:wirecoil_electrum'
+    })
 })
 
 onEvent('item.tags', event => {
-	// Get the #forge:cobblestone tag collection and add Diamond Ore to it
-	// event.get('forge:cobblestone').add('minecraft:diamond_ore')
-
-	// Get the #forge:cobblestone tag collection and remove Mossy Cobblestone from it
-	// event.get('forge:cobblestone').remove('minecraft:mossy_cobblestone')
+	
 })

@@ -1,0 +1,392 @@
+{
+	id: "4B21864F8A248FF3"
+	group: "7BE0AFFF53750A70"
+	order_index: 1
+	filename: "modular_equipment"
+	title: "Tinkering"
+	icon: {
+		id: "tconstruct:seared_fuel_tank"
+		Count: 1b
+		tag: {
+			tank: {
+				Amount: 4000
+				FluidName: "tconstruct:blazing_blood"
+			}
+		}
+	}
+	subtitle: ["Gearing Up"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Tinkers Stations"
+			x: -2.0d
+			y: -0.4d
+			dependencies: ["342A621BC0A1AE6D"]
+			id: "3AB1E497FC5F7491"
+			tasks: [
+				{
+					id: "04FC32A913A3871A"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "3C45471979D67577"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "1F3912060A8CBE42"
+					type: "item"
+					item: "tconstruct:part_chest"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.7d
+			dependencies: ["397A50FB32901295"]
+			id: "342A621BC0A1AE6D"
+			tasks: [{
+				id: "055E0C66F68D6AE5"
+				type: "item"
+				item: {
+					id: "tconstruct:materials_and_you"
+					Count: 1b
+					tag: {
+						mantle: {
+							book: {
+								current_page: "intro.storage"
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Basic Melter"
+			icon: "tconstruct:seared_melter"
+			x: -0.5d
+			y: 0.8d
+			dependencies: [
+				"3345457E0FFA8AF1"
+				"4BF96EA27F563BE8"
+			]
+			id: "65714A4E793714D1"
+			tasks: [
+				{
+					id: "6C137F8ABEA669C1"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "11C2EBB3843FAB69"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "23DED1058716672C"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "78DF2963361DE5BD"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "31289B97004E6019"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -0.4d
+			dependencies: ["055E0C66F68D6AE5"]
+			id: "4BF96EA27F563BE8"
+			tasks: [{
+				id: "0DCB27D2675FD757"
+				type: "item"
+				item: {
+					id: "tconstruct:puny_smelting"
+					Count: 1b
+					tag: {
+						mantle: {
+							book: {
+								current_page: "slotless.page9"
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.4d
+			dependencies: ["0DCB27D2675FD757"]
+			id: "2BC2689171A3AAB4"
+			tasks: [{
+				id: "11D521C9E73BD1EF"
+				type: "item"
+				item: {
+					id: "tconstruct:mighty_smelting"
+					Count: 1b
+					tag: {
+						mantle: {
+							book: {
+								current_page: "tier_three_materials.page0"
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Smeltery"
+			icon: "tconstruct:smeltery_controller"
+			x: 1.0d
+			y: 0.8d
+			dependencies: [
+				"65714A4E793714D1"
+				"2BC2689171A3AAB4"
+			]
+			size: 1.2d
+			id: "24D5F4F34F51AE28"
+			tasks: [
+				{
+					id: "0D9B99420C7D0649"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "5CE515B5B8537A98"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+				}
+				{
+					id: "5106720B0A3FD433"
+					type: "item"
+					title: "Any #tconstruct:seared_tanks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:seared_tanks"
+						}
+					}
+				}
+				{
+					id: "0D900E206D4CE3B7"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "1367659BC7A2FB1E"
+					type: "item"
+					item: "tconstruct:seared_duct"
+				}
+				{
+					id: "55EA4D8913F63800"
+					type: "item"
+					item: "tconstruct:seared_chute"
+				}
+			]
+		}
+		{
+			x: -1.1d
+			y: 1.9d
+			dependencies: ["65714A4E793714D1"]
+			id: "559DC398863D05D0"
+			tasks: [{
+				id: "782F7F0BCD0C4F7A"
+				type: "item"
+				item: "tconstruct:tinkers_anvil"
+			}]
+		}
+		{
+			title: "Gold Casts"
+			x: 0.0d
+			y: 1.9d
+			dependencies: ["65714A4E793714D1"]
+			id: "41DA195BC7E41CDB"
+			tasks: [
+				{
+					id: "08D577F102EFA026"
+					type: "item"
+					item: "tconstruct:ingot_cast"
+				}
+				{
+					id: "29A2D49FC9C1F1CC"
+					type: "item"
+					item: "tconstruct:rod_cast"
+				}
+				{
+					id: "3379AB9E3EEA8038"
+					type: "item"
+					item: "tconstruct:tool_binding_cast"
+				}
+				{
+					id: "73E2A0E18F90BA05"
+					type: "item"
+					item: "tconstruct:pickaxe_head_cast"
+				}
+				{
+					id: "08AA5FFE50C4C406"
+					type: "item"
+					item: "tconstruct:small_axe_head_cast"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["41DA195BC7E41CDB"]
+			id: "5B67BA3B0694073F"
+			tasks: [{
+				id: "6AE1A226CE4AF13D"
+				type: "item"
+				item: "tconstruct:cast_chest"
+			}]
+		}
+		{
+			x: 2.7d
+			y: -0.4d
+			dependencies: ["11D521C9E73BD1EF"]
+			id: "632D06B561C34E79"
+			tasks: [{
+				id: "00A5377AAB49AA28"
+				type: "item"
+				item: {
+					id: "tconstruct:fantastic_foundry"
+					Count: 1b
+					tag: {
+						mantle: {
+							book: {
+								current_page: "foundry.controller"
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Foundry"
+			icon: "tconstruct:foundry_controller"
+			x: 2.7d
+			y: 0.8d
+			dependencies: [
+				"47FDCA291EB5E171"
+				"632D06B561C34E79"
+			]
+			size: 1.2d
+			id: "74910B8F599EFF6E"
+			tasks: [
+				{
+					id: "5D45C2041842FF7B"
+					type: "item"
+					item: "tconstruct:foundry_controller"
+				}
+				{
+					id: "534D6C00590EA61A"
+					type: "item"
+					item: "tconstruct:scorched_bricks"
+				}
+				{
+					id: "08A2692CD66F509A"
+					type: "item"
+					title: "Any #tconstruct:scorched_tanks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:scorched_tanks"
+						}
+					}
+				}
+				{
+					id: "42E68593A969B6BD"
+					type: "item"
+					item: "tconstruct:scorched_drain"
+				}
+				{
+					id: "0DE6BC08AFB5EEBB"
+					type: "item"
+					item: "tconstruct:scorched_duct"
+				}
+				{
+					id: "1DFD811059508650"
+					type: "item"
+					item: "tconstruct:scorched_chute"
+				}
+				{
+					id: "1BCE98C0238D6BF9"
+					type: "item"
+					item: "tconstruct:scorched_faucet"
+				}
+				{
+					id: "326E3295C0070722"
+					type: "item"
+					item: "tconstruct:scorched_basin"
+				}
+				{
+					id: "26518EF50A757E63"
+					type: "item"
+					item: "tconstruct:scorched_table"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.8d
+			dependencies: ["1C2803118C7675AF"]
+			id: "47FDCA291EB5E171"
+			tasks: [{
+				id: "445E25B1FBC7C12E"
+				type: "item"
+				item: "tconstruct:nether_grout"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.8d
+			dependencies: ["3AB1E497FC5F7491"]
+			id: "3345457E0FFA8AF1"
+			tasks: [{
+				id: "25D64C565F585CF9"
+				type: "item"
+				item: "tconstruct:grout"
+			}]
+		}
+		{
+			title: "Alloyer"
+			x: 2.7d
+			y: 2.1d
+			description: [
+				"The Foundry doesn't allow alloying, so the Alloyer was invented"
+				""
+				"Takes input from adjacent Tanks, uses either a Heater or a Tank with fuel"
+			]
+			dependencies: ["74910B8F599EFF6E"]
+			id: "314FE59428892B32"
+			tasks: [{
+				id: "12FDAF55A7CCE6E3"
+				type: "item"
+				item: "tconstruct:scorched_alloyer"
+			}]
+		}
+	]
+}

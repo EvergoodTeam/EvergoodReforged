@@ -1073,7 +1073,7 @@
 		"Min Start Y" = -10
 		"Max Start Y" = 10
 		"Chest Chance" = 0.5
-		"Average Distance" = 20
+		"Average Distance" = 100
 		"Minimum Distance" = 11
 
 		[world.big_dungeon.biome_config]

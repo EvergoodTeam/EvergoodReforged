@@ -154,7 +154,6 @@
 			#Range: 0 ~ 64000
 			energy_cost_xdim = 8000
 
-		#Settings
 		[cyclic.blocks.sound]
 			#Sound Recorder - how far out does it listen to record sounds
 			#Range: 1 ~ 64
@@ -214,7 +213,6 @@
 			#Range: 0.0010000000474974513 ~ 1.0
 			conversion_chance = 0.07999999821186066
 
-		#Sprinkler settings
 		[cyclic.blocks.sprinkler]
 			#Tick rate.  20 will fire one block per second
 			#Range: 1 ~ 20
@@ -222,6 +220,24 @@
 			#Water consumption
 			#Range: 0 ~ 1000
 			water = 5
+
+		[cyclic.blocks.cables]
+
+			[cyclic.blocks.cables.fluid]
+				#How many buckets of buffer fluid the fluid cable can hold (for each direction. for example 2 here means 2000ub in each face)
+				#Range: 1 ~ 32
+				buffer = 16
+				#How many fluid units per tick can flow through these cables each tick (1 bucket = 1000) including normal flow and extraction mode
+				#Range: 100 ~ 32000
+				flow = 1000
+
+			[cyclic.blocks.cables.energy]
+				#How much buffer the energy cables hold (must not be smaller than flow)
+				#Range: 1 ~ 128000
+				buffer = 32000
+				#How fast energy flows in these cables (must not be greater than buffer)
+				#Range: 100 ~ 32000
+				flow = 1000
 
 		[cyclic.blocks.generator_food]
 			#RF energy per tick generated while burning food in this machine
@@ -302,11 +318,6 @@
 			#Range: 0 ~ 15
 			light_level = 9
 
-		[cyclic.items.chorus_spectral]
-			#Seconds of noClip per chorus_spectral
-			#Range: 1 ~ 20000
-			ticks = 600
-
 		#Sack of Holding settings
 		[cyclic.items.tile_transporter]
 			#Block these from being picked up
@@ -317,6 +328,39 @@
 			#Range: 0 ~ 100
 			boost = 10
 
+		[cyclic.items.prospector]
+			#Ore Prospector radius around player to search for ores
+			#Range: 1 ~ 256
+			range = 32
+
+		[cyclic.items.chorus_flight]
+			#Seconds of flight per chorus_flight
+			#Range: 1 ~ 20000
+			ticks = 1200
+
+		[cyclic.items.monster_ball]
+			#Entity ids that cannot be picked up with the Monster all
+			ignore_list = ["minecraft:ender_dragon", "minecraft:wither"]
+
+		#Heart items
+		[cyclic.items.heart]
+			#Maximum number of hearts that can be attained (including initial 10)
+			#Range: 1 ~ 200
+			maximum = 100
+			#Experience given when eating a poisoned heart
+			#Range: 0 ~ 99999
+			experience = 500
+
+		[cyclic.items.spawner_seeker]
+			#Range in all directions to search for spawner
+			#Range: 1 ~ 256
+			range = 64
+
+		[cyclic.items.chorus_spectral]
+			#Seconds of noClip per chorus_spectral
+			#Range: 1 ~ 20000
+			ticks = 600
+
 		[cyclic.items.charm_attack_speed]
 			#Boost given by item charm_attackspeed
 			#Range: 0.0 ~ 2.0
@@ -326,16 +370,6 @@
 			#Boost given by item charm_speed
 			#Range: 0.0 ~ 2.0
 			boost = 0.5
-
-		[cyclic.items.prospector]
-			#Ore Prospector radius around player to search for ores
-			#Range: 1 ~ 99
-			range = 32
-
-		[cyclic.items.chorus_flight]
-			#Seconds of flight per chorus_flight
-			#Range: 1 ~ 20000
-			ticks = 1200
 
 		# Caving Torch Charm settings
 		[cyclic.items.caving_torch]
@@ -353,24 +387,11 @@
 			#True means left, False means right
 			prefer_left_wall = false
 
-		[cyclic.items.monster_ball]
-			#Entity ids that cannot be picked up with the Monster all
-			ignore_list = ["minecraft:ender_dragon", "minecraft:wither"]
-
 		#Wand settings
 		[cyclic.items.teleport_wand]
 			#Maximum distance to activate
 			#Range: 8 ~ 1024
 			range = 256
-
-		#Heart items
-		[cyclic.items.heart]
-			#Maximum number of hearts that can be attained (including initial 10)
-			#Range: 1 ~ 200
-			maximum = 100
-			#Experience given when eating a poisoned heart
-			#Range: 0 ~ 99999
-			experience = 500
 
 	#####################################################################################
 	# Edit the permissions of all commands added by the mod.  false means anyone can use, true means only OP players can use  

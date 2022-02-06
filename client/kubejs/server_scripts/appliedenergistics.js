@@ -5,32 +5,44 @@ settings.logRemovedRecipes = true
 settings.logSkippedRecipes = true
 settings.logErroringRecipes = true
 
-console.info('Reloaded Server Resources')
+console.info('Reloaded appliedenergistics.js')
 
 onEvent('recipes', event => {
 
 
     // Applied Energistics 2 ----------------------------------------------------------------------
+
+    // Inscriber
     event.remove({output: 'ae2:inscriber'})
     event.shaped('ae2:inscriber', [
         'IPI',
-        'BGE',
+        'BGC',
         'IPI'
       ], {
         I: 'minecraft:iron_ingot',
         P: 'minecraft:sticky_piston',
-        B: '#forge:plates/brass',
-        E: 'create:electron_tube',
+        B: 'assemblylinemachines:plastic_sheet',
+        C: 'createaddition:capacitor',
         G: 'minecraft:glass_pane'
     })
+
+    // ME Controller
+    event.remove({output: 'ae2:controller'})
+    event.shaped('ae2:controller', [
+        'SFS',
+        'TPT',
+        'SFS'
+      ], {
+        S: 'ae2:sky_stone_block',
+        T: 'assemblylinemachines:attuned_titanium_plate',
+        F: 'ae2:fluix_crystal',
+        P: 'ae2:engineering_processor'
+    })
+
 
 
 })
 
 onEvent('item.tags', event => {
-	// Get the #forge:cobblestone tag collection and add Diamond Ore to it
-	// event.get('forge:cobblestone').add('minecraft:diamond_ore')
-
-	// Get the #forge:cobblestone tag collection and remove Mossy Cobblestone from it
-	// event.get('forge:cobblestone').remove('minecraft:mossy_cobblestone')
+	
 })

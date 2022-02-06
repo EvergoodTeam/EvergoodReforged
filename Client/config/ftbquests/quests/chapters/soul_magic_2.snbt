@@ -1,0 +1,486 @@
+{
+	id: "6CA7E3BFE8CC1D65"
+	group: "606FDB2654D2128B"
+	order_index: 0
+	filename: "soul_magic_2"
+	title: "Source Wonders"
+	icon: "ars_nouveau:relay"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Coming soon"
+			icon: "createdeco:orange_decal"
+			x: 0.7d
+			y: -0.5d
+			description: ["Proper integration with Ars Nouveau will be coming in a future update"]
+			id: "69754D47941A57B2"
+			tasks: [{
+				id: "281F8BEA7E1067B3"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 0.7d
+			y: 0.9d
+			dependencies: ["07765550450F5242"]
+			size: 1.2d
+			id: "43135BB0C9F08C11"
+			tasks: [{
+				id: "53594F1EACFF90A2"
+				type: "item"
+				item: "ars_nouveau:worn_notebook"
+			}]
+		}
+		{
+			x: 0.7d
+			y: 2.3d
+			dependencies: ["43135BB0C9F08C11"]
+			id: "3FFF6214F12C8BBC"
+			tasks: [{
+				id: "5AD76F9FCA167E4F"
+				type: "item"
+				item: {
+					id: "ars_nouveau:novice_spell_book"
+					Count: 1b
+					tag: {
+						ars_nouveau_spellCaster: {
+							spell_color_0: "255,25,180"
+							spell_10: "[]"
+							spell_name_9: ""
+							spell_name_5: ""
+							spell_color_8: "255,25,180"
+							spell_1: "[touch, break]"
+							flavor: ""
+							spell_6: "[]"
+							spell_5: "[]"
+							spell_color_5: "255,25,180"
+							spell_name_0: ""
+							spell_name_1: ""
+							spell_name_4: ""
+							spell_2: "[]"
+							spell_color_4: "255,25,180"
+							spell_color_1: "255,25,180"
+							spell_7: "[]"
+							spell_8: "[]"
+							spell_9: "[]"
+							spell_color_2: "255,25,180"
+							spell_color_6: "255,25,180"
+							spell_name_10: ""
+							spell_name_7: ""
+							spell_3: "[]"
+							spell_4: "[]"
+							spell_name_3: ""
+							spell_0: "[]"
+							spell_color_3: "255,25,180"
+							spell_name_2: ""
+							current_slot: 1
+							spell_color_7: "255,25,180"
+							spell_name_6: ""
+							spell_name_8: ""
+							spell_color_9: "255,25,180"
+							spell_color_10: "255,25,180"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Upgraded Spell Book"
+			x: 1.8d
+			y: 2.3d
+			dependencies: ["3FFF6214F12C8BBC"]
+			id: "3765B0CE22C815EE"
+			tasks: [
+				{
+					id: "40A0A34E4FB2A67F"
+					type: "item"
+					item: "ars_nouveau:apprentice_spell_book"
+				}
+				{
+					id: "6F690360515CF106"
+					type: "item"
+					item: "ars_nouveau:archmage_spell_book"
+				}
+			]
+		}
+		{
+			title: "Source Production"
+			x: 0.2d
+			y: 3.3d
+			dependencies: ["3FFF6214F12C8BBC"]
+			id: "1640F0271AADAD16"
+			tasks: [
+				{
+					id: "598A01CA0D253E1D"
+					type: "item"
+					item: "ars_nouveau:agronomic_sourcelink"
+				}
+				{
+					id: "6073E49793FB5B89"
+					type: "item"
+					item: "ars_nouveau:source_jar"
+				}
+			]
+		}
+		{
+			x: 0.2d
+			y: 4.4d
+			description: ["Some recipes require additional items, which you can place on nearby Pedestals"]
+			dependencies: ["1640F0271AADAD16"]
+			id: "4E7531BBC8CD7DA5"
+			tasks: [{
+				id: "59C8F7A10198D48A"
+				type: "item"
+				item: "ars_nouveau:imbuement_chamber"
+			}]
+		}
+		{
+			x: 1.2d
+			y: 4.4d
+			dependencies: ["4E7531BBC8CD7DA5"]
+			id: "6CE3A5158D873734"
+			tasks: [{
+				id: "3E0EE265C1D9D6C3"
+				type: "item"
+				item: "ars_nouveau:source_gem"
+			}]
+		}
+		{
+			x: -0.9d
+			y: 4.4d
+			dependencies: ["4E7531BBC8CD7DA5"]
+			optional: true
+			id: "1F844259706A74DF"
+			tasks: [{
+				id: "07E3C65D9B92E03D"
+				type: "item"
+				item: {
+					id: "ars_nouveau:dowsing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.4d
+			y: 3.3d
+			dependencies: ["1640F0271AADAD16"]
+			id: "4A18C7A6F60D77F1"
+			tasks: [{
+				id: "34DC618F107E42A8"
+				type: "item"
+				item: "ars_nouveau:scribes_table"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.3d
+			dependencies: ["4A18C7A6F60D77F1"]
+			id: "44CAC910D9515D47"
+			tasks: [{
+				id: "63714911DAA836F2"
+				type: "item"
+				item: {
+					id: "ars_nouveau:spell_parchment"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.2d
+			y: 5.4d
+			dependencies: ["6CE3A5158D873734"]
+			id: "1FD1B554FCD23829"
+			tasks: [{
+				id: "646E3FCD8DAD2C38"
+				type: "item"
+				item: "ars_nouveau:arcane_stone"
+			}]
+		}
+		{
+			x: 1.2d
+			y: 6.6d
+			dependencies: ["1FD1B554FCD23829"]
+			size: 1.2d
+			id: "38A50D4FC60AE6AB"
+			tasks: [
+				{
+					id: "0D1B3CB667F48F27"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+				{
+					id: "38D61EB173B74856"
+					type: "item"
+					item: "ars_nouveau:arcane_core"
+				}
+				{
+					id: "3C72861DD28A2535"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: 0.2d
+			y: 6.6d
+			dependencies: ["38A50D4FC60AE6AB"]
+			id: "6E41CA11132F44F8"
+			tasks: [{
+				id: "528D79A60FA8BA0D"
+				type: "item"
+				item: "ars_nouveau:magebloom_crop"
+			}]
+		}
+		{
+			title: "Novice Set"
+			x: -0.255d
+			y: 5.609999999999999d
+			dependencies: ["6E41CA11132F44F8"]
+			size: 0.85d
+			optional: true
+			id: "59897B7BA4DB0218"
+			tasks: [
+				{
+					id: "7CD0371EB068C284"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "31F5F039C4F5FBBD"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "728712921CB7294F"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "355EC2D1DE753751"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Mage Set"
+			x: -0.9349999999999999d
+			y: 5.609999999999999d
+			dependencies: ["59897B7BA4DB0218"]
+			size: 0.85d
+			optional: true
+			id: "7ED4A74FB6046056"
+			tasks: [
+				{
+					id: "38C8B58D274EB5F2"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "464499C73E1F54E0"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4F812E8FE02AE67D"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6FC5317551B99287"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Archmage Set"
+			x: -1.615d
+			y: 5.609999999999999d
+			dependencies: ["7ED4A74FB6046056"]
+			size: 0.85d
+			optional: true
+			id: "129FA1B37A10A05B"
+			tasks: [
+				{
+					id: "67800DF29A09F6B4"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "11D774A2251D2C9D"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4EF4607CCB59F7B1"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B7B348ECF4FC8F5"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.4d
+			y: 4.1d
+			dependencies: ["44CAC910D9515D47"]
+			id: "27DA1C28240648C5"
+			tasks: [{
+				id: "246C2BA999ADDAD5"
+				type: "item"
+				item: "ars_nouveau:basic_spell_turret"
+			}]
+		}
+		{
+			title: "Charms"
+			x: 2.5d
+			y: 5.4d
+			description: ["Shift right click on a normal Lectern"]
+			dependencies: [
+				"44CAC910D9515D47"
+				"38A50D4FC60AE6AB"
+			]
+			id: "5550B6FA8A5BAB57"
+			tasks: [
+				{
+					id: "51EAFE04084F3BCD"
+					type: "item"
+					item: "ars_nouveau:bookwyrm_charm"
+				}
+				{
+					id: "2B136D2ADEAB6001"
+					type: "item"
+					item: "ars_nouveau:whirlisprig_charm"
+				}
+			]
+		}
+		{
+			x: 2.125d
+			y: 7.055d
+			dependencies: ["38A50D4FC60AE6AB"]
+			size: 0.85d
+			id: "6E7B55295296EFF1"
+			tasks: [{
+				id: "431181D2F8ABD200"
+				type: "item"
+				item: "ars_nouveau:ring_of_greater_discount"
+			}]
+		}
+		{
+			x: 1.2d
+			y: 7.8d
+			dependencies: ["38A50D4FC60AE6AB"]
+			id: "2AB45CFE92633CF0"
+			tasks: [{
+				id: "703545EFBFCF562D"
+				type: "item"
+				item: "ars_nouveau:ritual_brazier"
+			}]
+		}
+		{
+			x: 0.2d
+			y: 8.4d
+			dependencies: ["2AB45CFE92633CF0"]
+			id: "23303492A80EFE11"
+			tasks: [{
+				id: "4443326312D9FD80"
+				type: "item"
+				item: "ars_nouveau:ritual_binding"
+			}]
+		}
+		{
+			title: "Familiars"
+			x: -0.7d
+			y: 8.4d
+			dependencies: ["23303492A80EFE11"]
+			id: "01C80CFE1D77F17A"
+			tasks: [{
+				id: "014E5E7A0F5C2E58"
+				type: "item"
+				item: "ars_nouveau:familiar_starbuncle"
+			}]
+		}
+	]
+}

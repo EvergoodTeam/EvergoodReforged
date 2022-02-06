@@ -1,0 +1,568 @@
+{
+	id: "2E2981D2644C7B6C"
+	group: "12350A3CDCB47773"
+	order_index: 0
+	filename: "updated_machinery"
+	title: "Updated Machinery"
+	icon: "assemblylinemachines:alloy_smelter"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.6d
+			y: -0.2d
+			dependencies: ["4222E1AD62AC143A"]
+			size: 1.3d
+			id: "4773229802090094"
+			tasks: [{
+				id: "7CA315ACD4C8A684"
+				type: "item"
+				item: "assemblylinemachines:energy_pipe"
+			}]
+		}
+		{
+			x: 1.4d
+			y: -0.2d
+			dependencies: ["4773229802090094"]
+			id: "11C375EAC7379009"
+			tasks: [{
+				id: "6CBC24156A3D5C41"
+				type: "item"
+				item: "assemblylinemachines:crankmill"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.2d
+			dependencies: ["11C375EAC7379009"]
+			id: "0447E76013055C0E"
+			tasks: [{
+				id: "50D28FE4DBF95F3F"
+				type: "item"
+				item: "assemblylinemachines:electric_purifier"
+			}]
+		}
+		{
+			x: -0.1d
+			y: 0.9d
+			dependencies: ["0447E76013055C0E"]
+			size: 1.3d
+			id: "70B5B47FED01F803"
+			tasks: [{
+				id: "358B7E46AEDDFFD2"
+				type: "item"
+				item: "assemblylinemachines:pure_steel"
+			}]
+		}
+		{
+			x: -0.1d
+			y: 2.0d
+			dependencies: ["70B5B47FED01F803"]
+			id: "6E9AE6EFE93D34FD"
+			tasks: [{
+				id: "114CDB0071A27C0B"
+				type: "item"
+				item: "assemblylinemachines:alloy_smelter"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.7d
+			dependencies: ["6E9AE6EFE93D34FD"]
+			id: "2D7891FDE3010278"
+			tasks: [{
+				id: "729E8905D0E8FF3B"
+				type: "item"
+				item: "assemblylinemachines:energized_gold_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.7d
+			dependencies: [
+				"6F175403586A3AE8"
+				"576273AB8F0B44A2"
+			]
+			id: "098D12E8C7A7D518"
+			tasks: [{
+				id: "0FA38C69C7A744FA"
+				type: "item"
+				item: "assemblylinemachines:mystium_ingot"
+			}]
+		}
+		{
+			x: 3.3d
+			y: 3.7d
+			dependencies: ["098D12E8C7A7D518"]
+			id: "00DDDCE590B4EBFF"
+			tasks: [{
+				id: "1808E134191B0652"
+				type: "item"
+				item: "assemblylinemachines:mystium_dowsing_rod"
+			}]
+		}
+		{
+			x: 4.4d
+			y: 3.7d
+			dependencies: [
+				"00DDDCE590B4EBFF"
+				"3FBB40260B59DD2C"
+			]
+			id: "3F7683DF21DACE7E"
+			tasks: [{
+				id: "231BD472B9F6C503"
+				type: "item"
+				item: "assemblylinemachines:oil_bucket"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.2d
+			dependencies: ["31580A49585330A5"]
+			id: "570845008420F31E"
+			tasks: [{
+				id: "77C59CE2506C0CC1"
+				type: "item"
+				item: "assemblylinemachines:chromium_ingot"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			dependencies: [
+				"570845008420F31E"
+				"098D12E8C7A7D518"
+			]
+			id: "38CDCC500F035B54"
+			tasks: [{
+				id: "0F1EB6F7BB10F156"
+				type: "item"
+				item: "assemblylinemachines:pumpshaft"
+			}]
+		}
+		{
+			x: 4.4d
+			y: 2.5d
+			dependencies: ["38CDCC500F035B54"]
+			id: "3FBB40260B59DD2C"
+			tasks: [{
+				id: "3B9430ACEA7E8C0F"
+				type: "item"
+				item: "assemblylinemachines:pump"
+			}]
+		}
+		{
+			x: 5.2d
+			y: 3.7d
+			dependencies: ["3F7683DF21DACE7E"]
+			id: "7E74574D1D80D741"
+			tasks: [{
+				id: "02181B23E5497BE2"
+				type: "item"
+				item: "assemblylinemachines:refinery"
+			}]
+		}
+		{
+			x: 5.2d
+			y: 0.19999999999999996d
+			dependencies: ["7E74574D1D80D741"]
+			id: "770402C1368312F0"
+			tasks: [{
+				id: "040A5442A24EA22E"
+				type: "item"
+				item: "assemblylinemachines:refinery_attachment_addition"
+			}]
+		}
+		{
+			x: 5.2d
+			y: -0.7d
+			dependencies: ["7E74574D1D80D741"]
+			id: "44BF1B32B08FE5ED"
+			tasks: [{
+				id: "384D0C7152CDA140"
+				type: "item"
+				item: "assemblylinemachines:refinery_attachment_cracking"
+			}]
+		}
+		{
+			x: 5.2d
+			y: 2.0d
+			dependencies: ["7E74574D1D80D741"]
+			id: "6252143C35286AC9"
+			tasks: [{
+				id: "07D9CBB742775CEB"
+				type: "item"
+				item: "assemblylinemachines:refinery_attachment_halogen"
+			}]
+		}
+		{
+			x: 5.2d
+			y: 1.1d
+			dependencies: ["7E74574D1D80D741"]
+			id: "6782D8A165D3C9B9"
+			tasks: [{
+				id: "6D650A0D2B70527C"
+				type: "item"
+				item: "assemblylinemachines:refinery_attachment_separation"
+			}]
+		}
+		{
+			x: 6.2d
+			y: 4.0d
+			dependencies: ["7E74574D1D80D741"]
+			id: "33D6B2C0C408955E"
+			tasks: [{
+				id: "58A417BCF87272D5"
+				type: "item"
+				item: "assemblylinemachines:rubber_ball"
+			}]
+		}
+		{
+			x: 5.8d
+			y: 4.7d
+			dependencies: ["7E74574D1D80D741"]
+			id: "642B47A770F2200D"
+			tasks: [{
+				id: "5BC42871A55EFCE5"
+				type: "item"
+				item: "assemblylinemachines:plastic_ball"
+			}]
+		}
+		{
+			x: 6.2d
+			y: 5.8d
+			dependencies: [
+				"33D6B2C0C408955E"
+				"642B47A770F2200D"
+			]
+			id: "588EA4B324412CE3"
+			tasks: [{
+				id: "07933FAFAFB45EBD"
+				type: "item"
+				item: "assemblylinemachines:metal_shaper"
+			}]
+		}
+		{
+			x: 5.3d
+			y: 6.5d
+			dependencies: ["588EA4B324412CE3"]
+			id: "4FA897DE0686714A"
+			tasks: [{
+				id: "4CA3A880D3557E63"
+				type: "item"
+				item: "assemblylinemachines:rubber_sheet"
+			}]
+		}
+		{
+			x: 4.9d
+			y: 5.8d
+			dependencies: ["588EA4B324412CE3"]
+			id: "2FFC84344F75DA96"
+			tasks: [{
+				id: "1BC33CAD67C3C41A"
+				type: "item"
+				item: "assemblylinemachines:plastic_sheet"
+			}]
+		}
+		{
+			x: 6.2d
+			y: 2.7d
+			dependencies: ["7E74574D1D80D741"]
+			id: "7065F8ADA8E5942F"
+			tasks: [{
+				id: "03F04E1FA10980B2"
+				type: "item"
+				item: "assemblylinemachines:machine_upgrade_gas"
+			}]
+		}
+		{
+			x: -1.1d
+			y: 0.2d
+			dependencies: ["70B5B47FED01F803"]
+			id: "266F055F135953BC"
+			tasks: [{
+				id: "2D867530F9498FDB"
+				type: "item"
+				item: "assemblylinemachines:coal_generator"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.8d
+			dependencies: ["2FFC84344F75DA96"]
+			id: "0E9533B0789E0D3B"
+			tasks: [{
+				id: "0EFDE7DA55CF8D61"
+				type: "item"
+				item: "assemblylinemachines:purifier_upgrade_enhanced"
+			}]
+		}
+		{
+			x: 2.6d
+			y: 5.8d
+			dependencies: [
+				"0E9533B0789E0D3B"
+				"6F175403586A3AE8"
+			]
+			id: "7A7113ED2594663C"
+			tasks: [{
+				id: "631D0F305EDBEA63"
+				type: "item"
+				item: "assemblylinemachines:attuned_titanium_ingot"
+			}]
+		}
+		{
+			x: 1.6d
+			y: 9.0d
+			dependencies: ["6F175403586A3AE8"]
+			id: "1F68386364EE17ED"
+			tasks: [{
+				id: "56B87F5ABB1FB454"
+				type: "item"
+				item: "assemblylinemachines:silt_mystium"
+			}]
+		}
+		{
+			title: "Entropy Reactor"
+			x: 2.6d
+			y: 8.0d
+			dependencies: [
+				"364C28038543460C"
+				"7A7113ED2594663C"
+			]
+			size: 1.2d
+			id: "62F992DDC40B3A78"
+			tasks: [
+				{
+					id: "5FC6ED1B05F54EE1"
+					type: "item"
+					item: "assemblylinemachines:entropy_reactor_core"
+				}
+				{
+					id: "5CCB2DE980CF0AD2"
+					type: "item"
+					item: "assemblylinemachines:entropy_reactor_block"
+					count: 26L
+				}
+			]
+		}
+		{
+			x: 3.9d
+			y: 8.0d
+			dependencies: ["31580A49585330A5"]
+			id: "364C28038543460C"
+			tasks: [{
+				id: "079B19F807988243"
+				type: "item"
+				item: "assemblylinemachines:condensed_void_bucket"
+			}]
+		}
+		{
+			x: 1.6d
+			y: 8.0d
+			dependencies: [
+				"62F992DDC40B3A78"
+				"1F68386364EE17ED"
+			]
+			id: "1F531DACA4A3206E"
+			tasks: [{
+				id: "0C8E092421FA4739"
+				type: "item"
+				item: "assemblylinemachines:flerovium_ore"
+			}]
+		}
+		{
+			x: 0.1d
+			y: -1.0d
+			dependencies: ["0447E76013055C0E"]
+			id: "4CEDCDFFC454A1CA"
+			tasks: [{
+				id: "6F175403586A3AE8"
+				type: "item"
+				item: "assemblylinemachines:mystium_blend"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.8d
+			dependencies: ["098D12E8C7A7D518"]
+			id: "1C0ECAFC04D4AD15"
+			tasks: [{
+				id: "167E6253CFCA4996"
+				type: "item"
+				item: {
+					id: "assemblylinemachines:mystium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.2d
+			dependencies: [
+				"1F531DACA4A3206E"
+				"1C0ECAFC04D4AD15"
+			]
+			id: "04D21E4031281CAB"
+			tasks: [{
+				id: "4D89C9973A7142C3"
+				type: "item"
+				item: "assemblylinemachines:flerovium_ingot"
+			}]
+		}
+		{
+			title: "Flowers"
+			x: 2.6d
+			y: 9.1d
+			dependencies: ["62F992DDC40B3A78"]
+			id: "21437ABBA8E09E0C"
+			tasks: [{
+				id: "57E79FA1E9942ABB"
+				type: "item"
+				title: "Any #minecraft:small_flowers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:small_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.1d
+			y: 10.0d
+			dependencies: ["21437ABBA8E09E0C"]
+			id: "0E9B0F849F551002"
+			tasks: [{
+				id: "7118EF2159D9E1E7"
+				type: "item"
+				item: "assemblylinemachines:prism_rose"
+			}]
+		}
+		{
+			x: 1.3d
+			y: 10.0d
+			dependencies: ["0E9B0F849F551002"]
+			id: "63242EB81EBF84DB"
+			tasks: [{
+				id: "6FE593EA39491A06"
+				type: "item"
+				item: "assemblylinemachines:prismatic_dust"
+			}]
+		}
+		{
+			x: -1.1d
+			y: 1.4d
+			dependencies: ["70B5B47FED01F803"]
+			id: "56C13116EDDD26C4"
+			tasks: [{
+				id: "07C3B98655B3CC65"
+				type: "item"
+				item: "assemblylinemachines:electric_grinder"
+			}]
+		}
+		{
+			x: -0.1d
+			y: 7.2d
+			dependencies: [
+				"6E9AE6EFE93D34FD"
+				"04D21E4031281CAB"
+			]
+			id: "73E1B5A40220A2BC"
+			tasks: [{
+				id: "5CA5C2103058A0B4"
+				type: "item"
+				item: "assemblylinemachines:raw_novasteel_compound"
+			}]
+		}
+		{
+			x: -0.1d
+			y: 10.0d
+			dependencies: ["63242EB81EBF84DB"]
+			id: "046C3F23CC7BB3E3"
+			tasks: [{
+				id: "5F7FFC9BF6352EBB"
+				type: "item"
+				item: "assemblylinemachines:nova_blend"
+			}]
+		}
+		{
+			x: -0.1d
+			y: 8.6d
+			dependencies: [
+				"73E1B5A40220A2BC"
+				"046C3F23CC7BB3E3"
+			]
+			size: 1.2d
+			id: "7B24A284008DB901"
+			tasks: [{
+				id: "33B645BA74EE6C56"
+				type: "item"
+				item: "assemblylinemachines:novasteel_ingot"
+			}]
+		}
+		{
+			x: -1.6d
+			y: 8.6d
+			dependencies: ["7B24A284008DB901"]
+			id: "22CDD1F789D3E193"
+			tasks: [{
+				id: "303D05BAC3A98A9D"
+				type: "item"
+				item: "assemblylinemachines:entropy_reactor_upgrade_entropic_harnesser"
+			}]
+		}
+		{
+			x: -1.1d
+			y: 7.7d
+			dependencies: ["7B24A284008DB901"]
+			id: "1C0F1C077FD7CBBE"
+			tasks: [{
+				id: "599FC840E58BA970"
+				type: "item"
+				item: {
+					id: "assemblylinemachines:novasteel_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.1d
+			y: 9.5d
+			dependencies: ["7B24A284008DB901"]
+			id: "5F77F58583CFD78F"
+			tasks: [{
+				id: "52A6C80C1DC80599"
+				type: "item"
+				item: {
+					id: "assemblylinemachines:novasteel_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.6d
+			dependencies: [
+				"6E9AE6EFE93D34FD"
+				"2D7891FDE3010278"
+			]
+			id: "576273AB8F0B44A2"
+			tasks: [{
+				id: "26681A0D8EFB5ECF"
+				type: "item"
+				item: "assemblylinemachines:electrified_netherite_blend"
+			}]
+		}
+	]
+}

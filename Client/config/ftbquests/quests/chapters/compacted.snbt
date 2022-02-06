@@ -1,0 +1,74 @@
+{
+	id: "21ABD2331E88BC06"
+	group: "6E48F2E376ED35B0"
+	order_index: 1
+	filename: "compacted"
+	title: "Compacted"
+	icon: "compactmachines:solid_wall"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -0.2d
+			dependencies: ["576273AB8F0B44A2"]
+			id: "423ABAD8AF7517A3"
+			tasks: [{
+				id: "2981C44C7BFF54B5"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["423ABAD8AF7517A3"]
+			id: "22DA2F7174C8F581"
+			tasks: [{
+				id: "4A201FEC4FF8148A"
+				type: "item"
+				item: "compactmachines:wall"
+			}]
+		}
+		{
+			title: "Compact Machine"
+			x: 0.0d
+			y: 2.4d
+			dependencies: ["22DA2F7174C8F581"]
+			size: 1.2d
+			id: "4EAC5586B383AD36"
+			tasks: [
+				{
+					id: "7B3251BB54909CE7"
+					type: "item"
+					item: "compactmachines:machine_tiny"
+				}
+				{
+					id: "7EE58B7546C1BE9E"
+					type: "item"
+					item: "compactmachines:machine_small"
+				}
+				{
+					id: "32C2ADFA5BBD180E"
+					type: "item"
+					item: "compactmachines:machine_normal"
+				}
+				{
+					id: "173DACF2E2B29D08"
+					type: "item"
+					item: "compactmachines:machine_large"
+				}
+				{
+					id: "2C7297D39E10B324"
+					type: "item"
+					item: "compactmachines:machine_giant"
+				}
+				{
+					id: "724DE24E64B01E46"
+					type: "item"
+					item: "compactmachines:machine_maximum"
+				}
+			]
+		}
+	]
+}

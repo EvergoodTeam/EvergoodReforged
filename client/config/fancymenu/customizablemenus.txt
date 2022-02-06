@@ -3,3 +3,15 @@ type = customizablemenus
 net.minecraft.client.gui.screens.TitleScreen {
 }
 
+net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen {
+}
+
+net.optifine.gui.GuiChatOF {
+}
+
+net.minecraft.client.gui.screens.inventory.InventoryScreen {
+}
+
+top.theillusivec4.curios.client.gui.CuriosScreen {
+}
+

@@ -20,7 +20,7 @@
   "forge:ingots/silver": "immersiveengineering:ingot_silver",
   "forge:dusts/saltpeter": "immersiveengineering:dust_saltpeter",
   "forge:ingots/steel": "immersiveengineering:ingot_steel",
-  "forge:ingots/titanium": "null",
+  "forge:ingots/titanium": "assemblylinemachines:titanium_ingot",
   "forge:rubber": "null",
   "forge:ingots/platinum": "alltheores:platinum_ingot",
   "forge:dusts/sulfur": "immersiveengineering:dust_sulfur",

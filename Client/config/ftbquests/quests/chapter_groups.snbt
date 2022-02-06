@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "7BE0AFFF53750A70", title: "Starting Out" }
+		{ id: "55628E09B5A78580", title: "Getting Industrious" }
+		{ id: "6E48F2E376ED35B0", title: "Dimensional Travel" }
+		{ id: "606FDB2654D2128B", title: "Wizardry" }
+		{ id: "1D519DFBE99B1ED5", title: "Resource Production" }
+		{ id: "12350A3CDCB47773", title: "Technological Innovation" }
+		{ id: "2948394CD62099E8", title: "Expanded Crafts" }
+	]
+}

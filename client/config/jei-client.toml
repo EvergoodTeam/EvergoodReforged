@@ -8,13 +8,17 @@
 	LowMemorySlowSearchEnabled = false
 	#How items should be handed to you
 	#Allowed Values: INVENTORY, MOUSE_PICKUP
-	GiveMode = "MOUSE_PICKUP"
+	GiveMode = "INVENTORY"
 	#Max number of columns shown
 	#Range: 4 ~ 100
 	MaxColumns = 13
 	#Max. recipe gui height
 	#Range: > 175
 	RecipeGuiHeight = 350
+	#Enable fast batched item rendering for JEI (disable this if items in JEI are not rendering correctly)
+	FastItemRenderingEnabled = true
+	#Enable cheating items into the hotbar by using the shift+number keys.
+	CheatToHotbarUsingHotkeysEnabled = false
 
 [colors]
 	#Color values to search for
@@ -40,11 +44,11 @@
 	#Search mode for Colors (prefix: ^)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	ColorSearchMode = "DISABLED"
-	#Search mode for resources IDs (prefix: &)
-	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	ResourceIdSearchMode = "DISABLED"
 	#Search advanced tooltips (visible with F3+H)
 	SearchAdvancedTooltips = false
+	#Search mode for resources locations (prefix: &)
+	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
+	ResourceLocationSearchMode = "DISABLED"
 
 [modname]
 	#Formatting for mod name tooltip

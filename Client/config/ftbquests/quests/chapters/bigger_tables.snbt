@@ -1,0 +1,110 @@
+{
+	id: "5D824B9E8E716B3E"
+	group: "2948394CD62099E8"
+	order_index: 0
+	filename: "bigger_tables"
+	title: "Bigger Tables"
+	icon: "extendedcrafting:ultimate_table"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.9d
+			y: -0.4d
+			dependencies: [
+				"18C79D886A0056B8"
+				"0159EC4E71CB74DF"
+			]
+			size: 1.15d
+			id: "2F6B6A92E8879B0C"
+			tasks: [{
+				id: "41823A77565779A5"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+		}
+		{
+			x: -0.2d
+			y: 0.5d
+			dependencies: ["2F6B6A92E8879B0C"]
+			size: 1.15d
+			id: "656B20A6D5DB9049"
+			tasks: [{
+				id: "27B146765C7DD7E2"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+		}
+		{
+			x: 1.6d
+			y: 1.4d
+			dependencies: ["656B20A6D5DB9049"]
+			size: 1.15d
+			id: "1CD364CFC29D2028"
+			tasks: [{
+				id: "73482CE8B404868B"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+		}
+		{
+			x: 3.4d
+			y: 2.3d
+			dependencies: ["1CD364CFC29D2028"]
+			size: 1.15d
+			id: "0806EECA3A67E78C"
+			tasks: [{
+				id: "1C91F6C2B7607BF3"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+		}
+		{
+			x: 2.8d
+			y: 3.4d
+			dependencies: ["0806EECA3A67E78C"]
+			id: "06F2181E912DF96D"
+			tasks: [{
+				id: "414A4ED5FCBC43E1"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+		}
+		{
+			x: 3.4d
+			y: 0.9d
+			dependencies: ["0806EECA3A67E78C"]
+			size: 1.2d
+			id: "1583D2BF7A49ACE2"
+			tasks: [{
+				id: "1EAE8AF3570B1102"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+		}
+		{
+			title: "WIP"
+			icon: "createdeco:white_decal"
+			x: 1.4d
+			y: -1.0d
+			description: ["These quests and their objective are currently a work in progress"]
+			optional: true
+			id: "617F255F35C9DB37"
+			tasks: [{
+				id: "7B052043A5AC5AB7"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.4d
+			dependencies: ["0806EECA3A67E78C"]
+			id: "18C0D7E59D3DEB6C"
+			tasks: [{
+				id: "74A6F9D7823F8CCA"
+				type: "item"
+				item: "extendedcrafting:crafting_core"
+			}]
+		}
+	]
+}

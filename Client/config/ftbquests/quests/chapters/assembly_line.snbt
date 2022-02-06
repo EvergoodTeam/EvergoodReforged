@@ -1,0 +1,322 @@
+{
+	id: "1F79B29BEBDE0EF0"
+	group: "55628E09B5A78580"
+	order_index: 0
+	filename: "assembly_line"
+	title: "Manual Steps"
+	icon: "assemblylinemachines:gearbox"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.3d
+			y: -0.7d
+			shape: "hexagon"
+			subtitle: "No bubbles"
+			dependencies: ["728D6914E03ABEE2"]
+			id: "7591729B5D033B5D"
+			tasks: [{
+				id: "75DB60EC0A7B58DB"
+				type: "item"
+				item: "assemblylinemachines:fluid_bath"
+			}]
+		}
+		{
+			x: -3.1d
+			y: -0.7d
+			shape: "hexagon"
+			subtitle: "Is it a spoon?"
+			dependencies: ["7591729B5D033B5D"]
+			id: "20658311E00A5439"
+			tasks: [{
+				id: "72A52D9BF4DC9C8A"
+				type: "item"
+				item: {
+					id: "assemblylinemachines:wooden_stirring_stick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.305d
+			y: -1.595d
+			shape: "hexagon"
+			description: ["Contains everything you'll need to know to build your very own assembly line"]
+			dependencies: ["5C5A8D46FBA8D3A4"]
+			size: 1.45d
+			id: "728D6914E03ABEE2"
+			tasks: [{
+				id: "065980D66178EA34"
+				type: "item"
+				item: "assemblylinemachines:guidebook"
+			}]
+		}
+		{
+			x: -1.3d
+			y: 0.30000000000000004d
+			subtitle: "All about that grind"
+			dependencies: [
+				"05C1248EC4067009"
+				"79396E30C2D3D523"
+			]
+			id: "4A88B00FF007927A"
+			tasks: [{
+				id: "4AC51B550E789090"
+				type: "item"
+				item: "assemblylinemachines:hand_grinder"
+			}]
+		}
+		{
+			x: -2.3d
+			y: 0.30000000000000004d
+			subtitle: "Very granular"
+			dependencies: ["7591729B5D033B5D"]
+			id: "05C1248EC4067009"
+			tasks: [{
+				id: "293D1A34E9F82EFD"
+				type: "item"
+				item: "assemblylinemachines:silt"
+			}]
+		}
+		{
+			x: -0.3d
+			y: -0.7d
+			dependencies: [
+				"728D6914E03ABEE2"
+				"73A4BB244C7DA697"
+			]
+			id: "115985C445B15487"
+			tasks: [{
+				id: "6663BC6B60ABFB2D"
+				type: "item"
+				item: "assemblylinemachines:titanium_ingot"
+			}]
+		}
+		{
+			x: -0.3d
+			y: 0.30000000000000004d
+			dependencies: ["115985C445B15487"]
+			id: "79396E30C2D3D523"
+			tasks: [{
+				id: "7A24BD0F0D410608"
+				type: "item"
+				item: {
+					id: "assemblylinemachines:titanium_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Ground Metals"
+			x: -1.3d
+			y: 1.3d
+			dependencies: ["4A88B00FF007927A"]
+			id: "06C57FFD53385C87"
+			tasks: [
+				{
+					id: "3F6973948DCE811B"
+					type: "item"
+					item: "assemblylinemachines:ground_iron"
+				}
+				{
+					id: "31AB2621341039F5"
+					type: "item"
+					item: "assemblylinemachines:ground_gold"
+				}
+			]
+		}
+		{
+			title: "Ore Silt"
+			x: -0.9d
+			y: 2.0d
+			dependencies: ["06C57FFD53385C87"]
+			id: "28B6AE5149C8AE59"
+			tasks: [
+				{
+					id: "546C4A4599882291"
+					type: "item"
+					item: "assemblylinemachines:silt_iron"
+				}
+				{
+					id: "36CD1D3A687C8EB8"
+					type: "item"
+					item: "assemblylinemachines:silt_gold"
+				}
+			]
+		}
+		{
+			title: "Pure Metal Ingots"
+			x: -1.7d
+			y: 2.0d
+			subtitle: "Shinier than ever"
+			dependencies: ["28B6AE5149C8AE59"]
+			id: "18C79D886A0056B8"
+			tasks: [
+				{
+					id: "0D6E9BA6798EB38A"
+					type: "item"
+					item: "assemblylinemachines:pure_iron"
+				}
+				{
+					id: "1E659300F4CC0AAD"
+					type: "item"
+					item: "assemblylinemachines:pure_gold"
+				}
+			]
+		}
+		{
+			x: -1.3d
+			y: 3.1d
+			subtitle: "Only a spoonful!"
+			dependencies: ["18C79D886A0056B8"]
+			id: "4026701D4A70B746"
+			tasks: [{
+				id: "070D95EA14159F96"
+				type: "item"
+				item: {
+					id: "assemblylinemachines:pure_iron_stirring_stick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.3d
+			y: 4.1d
+			subtitle: "Fancy blade"
+			dependencies: ["4026701D4A70B746"]
+			id: "4028C8063E6EB31C"
+			tasks: [{
+				id: "15B7C2EEC3418BC3"
+				type: "item"
+				item: {
+					id: "assemblylinemachines:pure_gold_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Early Steel"
+			x: -1.3d
+			y: 5.3d
+			subtitle: "Maybe there are faster ways..."
+			description: [
+				"This is an early way of producing Steel, but not recommended to make massive quantities"
+				""
+				"Maybe look into something more Immersing..."
+			]
+			dependencies: ["4028C8063E6EB31C"]
+			size: 1.2d
+			id: "5383769CC5B5EBB5"
+			tasks: [{
+				id: "11048D0262885957"
+				type: "item"
+				item: "assemblylinemachines:steel_ingot"
+			}]
+		}
+		{
+			title: "Crankin'"
+			x: 3.1d
+			y: -0.8999999999999999d
+			dependencies: ["0DC1019B419B725E"]
+			size: 1.2d
+			id: "45780E50BAF07CB5"
+			tasks: [{
+				id: "37FAF3EE610281B1"
+				type: "item"
+				item: "assemblylinemachines:crank"
+			}]
+		}
+		{
+			x: 2.6d
+			y: 0.3999999999999999d
+			dependencies: ["45780E50BAF07CB5"]
+			id: "76FEE13CD221EA31"
+			tasks: [{
+				id: "2D4DA6DBF75043A7"
+				type: "item"
+				item: "assemblylinemachines:simple_grinder"
+			}]
+		}
+		{
+			x: 3.5999999999999996d
+			y: 0.3999999999999999d
+			dependencies: ["45780E50BAF07CB5"]
+			id: "0694A11F95AEE8B5"
+			tasks: [{
+				id: "1C11C8A13A7C8F3C"
+				type: "item"
+				item: "assemblylinemachines:simple_fluid_mixer"
+			}]
+		}
+		{
+			x: 3.1d
+			y: 1.2999999999999998d
+			dependencies: ["0694A11F95AEE8B5"]
+			id: "746EF2D41F62E673"
+			tasks: [{
+				id: "3913B70067F45111"
+				type: "item"
+				item: "assemblylinemachines:empowered_coal"
+			}]
+		}
+		{
+			x: 3.1d
+			y: 2.3d
+			dependencies: ["746EF2D41F62E673"]
+			id: "4BE845C5E81B56BC"
+			tasks: [{
+				id: "7F2BB2C42D4FF2AB"
+				type: "item"
+				item: "assemblylinemachines:gearbox"
+			}]
+		}
+		{
+			title: "Crank-Powered Tools"
+			x: 3.1d
+			y: 3.3d
+			dependencies: ["4BE845C5E81B56BC"]
+			id: "54BBAF290A78AA70"
+			tasks: [
+				{
+					id: "3412FF6973EC66F6"
+					type: "item"
+					item: "assemblylinemachines:simple_crank_charger"
+				}
+				{
+					id: "19F596E9874217FA"
+					type: "item"
+					item: {
+						id: "assemblylinemachines:crank_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.1d
+			y: 4.6d
+			dependencies: ["54BBAF290A78AA70"]
+			id: "4222E1AD62AC143A"
+			tasks: [{
+				id: "74132E67B532CCBA"
+				type: "item"
+				item: "assemblylinemachines:black_granite"
+			}]
+		}
+	]
+}

@@ -5,7 +5,7 @@ settings.logRemovedRecipes = true
 settings.logSkippedRecipes = true
 settings.logErroringRecipes = true
 
-console.info('Reloaded Server Resources')
+console.info('Reloaded productivebees.js')
 
 onEvent('recipes', event => {
 
@@ -13,13 +13,15 @@ onEvent('recipes', event => {
     // Productive Bees ----------------------------------------------------------------------
     event.remove({output: 'productivebees:centrifuge'})
     event.shaped('productivebees:centrifuge', [
-        'SOS',
-        'SCS',
-        'SSS'
+        'SRS',
+        'CMC',
+        'SBS'
       ], {
         S: '#forge:plates/steel',
-        C: 'minecraft:cauldron',
-        O: 'create:cogwheel'
+        R: 'createaddition:redstone_relay',
+        M: 'create:mechanical_mixer',
+        B: 'create:basin',
+        C: 'create:cogwheel'
     })
 
     event.remove({output: 'productivebees:powered_centrifuge'})
@@ -28,19 +30,15 @@ onEvent('recipes', event => {
         'RCR',
         'PAP'
       ], {
-        R: 'immersiveengineering:wirecoil_redstone',
+        R: 'create:electron_tube',
         C: 'productivebees:centrifuge',
         A: 'immersiveengineering:capacitor_lv',
         P: '#forge:plates/steel',
-        S: '#forge:plates/brass'
+        S: 'immersiveengineering:wirecoil_redstone'
     })
 
 })
 
 onEvent('item.tags', event => {
-	// Get the #forge:cobblestone tag collection and add Diamond Ore to it
-	// event.get('forge:cobblestone').add('minecraft:diamond_ore')
-
-	// Get the #forge:cobblestone tag collection and remove Mossy Cobblestone from it
-	// event.get('forge:cobblestone').remove('minecraft:mossy_cobblestone')
+	
 })
